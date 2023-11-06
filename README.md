@@ -4,7 +4,18 @@
    Entregable: https://github.com/milagros9797/grupo_5_cincompetencia
 
 2. # Definir la temática del Market Place
-   ¿Qué productos o servicios brindará nuestro sitio? ¿Quién será nuestra audiencia objetivo? ¿Cómo ajustaremos nuestra oferta a ese público?
+¿Qué productos o servicios brindará nuestro sitio?
+
+Calzado y Ropa deportiva – outfit deporte-Urbana y accesorios deportivos.
+
+¿Quién será nuestra audiencia objetivo?
+
+Publico con un espíritu afianzado en el deporte y la aventura en búsqueda de Ropa, calzado, vestimenta para el confort en cada una de sus experiencias.
+
+¿Cómo ajustaremos nuestra oferta a ese público?
+
+Con propuestas que puedan satisfacer las necesidades deportivas y outfit elegante cómodo centrado en un espíritu de competencia deportiva sana
+
    Entregable: Crear archivo README.md en el repositiorio con:
    ● Una breve descripción de la oferta de productos y/o servicios ofrecidos por su
    sitio.
