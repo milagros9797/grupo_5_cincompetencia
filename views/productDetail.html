@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productDetail | CINCOmpetencia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    >
     <link rel="stylesheet" href="/css/styles.css">
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -87,6 +91,42 @@
         <section class="product____section__--more">
           <h3>Quizá también te guste</h3>
           <article class="product____section__article--more">
+            <div class="swiper mySwiper1">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="/images/remera-1.jpg" alt="" >
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/remera-2.jpg" alt="" >
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/remera-3.jpg" alt="" >
+                  </div>
+                </div>
     
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+    
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+              <h4 class="product__carousel--tshirt">Remera</h4>
+          <p class="product__carousel--precio">$5.000</p>
+        </article>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".mySwiper1", {
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 </body>
 </html>
