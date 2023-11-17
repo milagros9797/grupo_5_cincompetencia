@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Inter:wght@500&family=Roboto:wght@300&display=swap');
 @import './general.css';
 @import './header.css';
 @import './footer.css';
@@ -5,5 +6,6 @@
 @import './index.css';
 @import './login.css';
 @import './productCart.css';
+@import './carousels.css';
 @import './productDetail.css';
 @import './register.css';
