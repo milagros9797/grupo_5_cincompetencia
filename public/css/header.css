@@ -1,3 +1,335 @@
-.header {
+.home__header {
+    background-color: #ffffff;
+    font-family: 'inter';
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+}
+.search__bar {
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+}
+.burguer__menu {
+    color: #4682a9;
+    font-size: 30px;
+    display: flex;
+    width: 25%;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+.home__header__logo{
+    width: 35%;
+
+}
+.home__header__i {
+    color: #695D62;
+    display: flex;
+    font-size: 15px;
+    width: 25%;
+    justify-content: center;
+    flex-grow: 1;   
+}  
+
+.heart{
+  padding: 0 10px;
+  margin-top: 50px;
+}
+
+.user{
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.cart{
+   padding: 0 10px;
+   margin-top: 50px;
+}
+
+.home__header__iconos {
+    padding: 20px 10px;
+    background-color: #EDEEF0;
+    color: #695D62;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 70%;
+}
+
+
+
+/*mobile*/
+@media (max-width:480px){
+.header__section {
+    display: none;
+}
+
+.paypal {
+    display: none;
+}
+.visa {
+    display: none;
+}
+.master {
+    display: none;
+}
+.amex {
+    display: none;
+}
+.phone {
+    display: none;
+}
+
+}
+/*tablet*/
+@media (min-width: 481px) {
+.home__header {
+    background-color: #ffffff;
+    font-family: 'inter';
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.burguer__menu {
+    display: none;
+}
+
+.home__header__logo{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.search__bar {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 0;
+} 
+
+.search__bar input {
+    width: 80%;
+}
+
+.home__header__i {
+    color: #695D62;
+    font-size: 20px;
+    justify-content: center;
+    width: 15%;
+    order: 1;
+}  
+   
+.home__header__iconos {
+    background-color: #EDEEF0;
+    color: #695D62;
+    padding: 10px 10px;
+}
+
+#truck {
+  position: relative;
+  left: 32px;
+}
+
+.tarjetas {
+   display: flex;
+   font-size: 30px;
+}
+
+.paypal {
+   padding-right: 7px;
+   font-size: 13px;
+}
+
+.visa {
+    padding-right: 7px;
+    font-size: 13px;
+}
+
+.master {
+    padding-right: 7px; 
+    font-size: 13px;
+}
+
+.amex {
+    padding-right: 7px;
+    font-size: 13px;
+}
+
+#hand {
+    position: relative;
+    right: 35px;
+}
+
+#medios-pagos {
+    position: relative;
+    right: 65px;
+}
+ 
+.phone {
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    right: 30px;
+}
+
+.tel{
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+.header__section ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4682a9;
+    justify-content: space-around;
+    padding: 20px;
+}   
+
+.header__section li a {
+    font-size: 20px;
+    color: #ffffff;
+    justify-content: flex-start;
+    align-items: flex-end;  
+}
+
+.mujer {
+    position: relative;
+    left: 35px;
+}
+
+.zapatillas {
+    position: relative;
+    right: 35px;
+}
+
+}
+
+
+
+
+/*desktop*/
+@media(min-width: 1024px){
+    .home__header__logo {
+        width: 20%;
+    }
+
+    .search__bar{
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+     }
+
+    .search__bar input {
+        width: 80%;
+    }
+
+    .home__header__i {
+        width: 10%;
+    }
+
+    .heart{
+        padding: 0 10px;
+        margin-top: 45px;
+      }
+      
+      .user{
+          padding: 0 10px;
+          margin-top: 45px;
+      }
+      
+      .cart{
+         padding: 0 10px;
+         margin-top: 45px;
+      }
+
+    .home__header__iconos {
+        background-color: #EDEEF0;
+        color: #695D62;
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    #truck{
+        position: relative;
+        font-size: 20px;
+         left: 40px;
+    }
+
+    #entregas {
+        position: relative;
+        right: 60px;
+    }
+
+    .tarjetas {
+        position: relative;
+        display: flex;
+        font-size: 60px; 
+       left: 70px;
+    }
+
+    .paypal {
+       padding-right: 20px;
+       font-size: 20px;
+    }
+
+    .visa {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .master {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .amex {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    #hand{
+        position: relative;
+        right: 60px; 
+        font-size: 20px;
+    }
+
+    #medios-pagos {
+        position: relative;
+        right: 160px;
+    }
+
+    .phone {
+        display: flex;
+        font-size: 15px; 
+        position: relative;
+        right: 20px;
+    }
+
+    .tel{
+        padding-right: 20px;
+         font-size: 20px; 
+    }
+
+    .header__section ul{
+         display: flex;
+         flex-wrap: wrap;
+         background-color: #4682a9;
+         justify-content: space-around;
+         padding: 20px;
+     } 
+
+    .header__section li a {
+        display: flex;
+        font-size: 25px;
+        color: #ffffff;
+        width: 5%;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+ 
+
 }
