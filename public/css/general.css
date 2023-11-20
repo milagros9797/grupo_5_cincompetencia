@@ -1,3 +1,9 @@
+:root {
+    --tipografia: "Inter";
+    --colorGris: #D9D9D9;
+    --colorAzul: #4682A9;
+  }
+  
 *{
     margin: 0;
     padding: 0;
