@@ -1,0 +1,68 @@
+body{
+    background-color: #f6f4eb ;
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+    
+    
+    }
+    
+    .register h2{
+    
+        font-size: 50px;
+        background: #4682a9;
+        color:#f6f4eb;
+        text-align: center;
+    
+    }
+    
+    
+    
+    .register{
+       
+        background: #ffffff ;
+        margin: auto;
+    
+    }
+    
+    .usuarioRegistro{
+      
+       display: block;
+    
+    }
+    
+    .dniRegister{
+        width: 90%;
+        background-color: #cfcfce;
+        border: none;
+        margin: 5px;
+        display: inline-flex;
+       
+    }
+    
+    
+    .form-register {
+        width: 90%;
+        background-color: #cfcfce;
+        border: none;
+        margin: 5px;
+        display: flexbox;
+        
+    }
+    
+    .buttonsRegister{
+    margin: auto;
+    display: block;
+    font-size: 35px;
+    color: #f6f4eb;
+    background-color: #4682a9;
+    border: none;
+    align-items: center;
+    padding: 5px;
+    
+    
+    }
