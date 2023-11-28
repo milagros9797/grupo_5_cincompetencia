@@ -8,12 +8,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
 }
 
 a{
     text-decoration: none;
 }
 
-li{
-    list-style: none;
+body{
+    font-family: 'inter';
 }
+
+
+
+img{
+   width: 100%;
+}
+
