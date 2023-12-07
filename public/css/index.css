@@ -249,7 +249,7 @@ p{
 
 
 .index__main__section__article{
-    width: 30%;
+    width: 48%;
 }
 
 .banner div img{
@@ -348,6 +348,12 @@ p{
 
 @media (min-width:1024px){
    
+
+
+
+    .index__main__section__article{
+        width: 23%;
+    }
     .conteCarrousel{
     
        
