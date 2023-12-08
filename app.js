@@ -5,15 +5,25 @@ const path = require('path');
 /*settings*/
 const app = express();
 const PORT = 3030;
+
+const indexRoutes = require('./routers/index.routes');
+const usersRoutes = require('./routers/users.routes');
+const productsRoutes = require('./routers/products.routes');
+
+
 app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname,'views')));
+
+
 
 
 /*routes*/
-app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views','index.html')));
-app.get('/register', (req,res) => res.sendFile(path.join(__dirname, 'views','register.html')));
-app.get('/login', (req,res) => res.sendFile(path.join(__dirname, 'views','login.html')));
-app.get('/product-detail', (req,res) => res.sendFile(path.join(__dirname, 'views','productDetail.html')));
-app.get('/product-cart', (req,res) => res.sendFile(path.join(__dirname, 'views','productCart.html')));
+app.get('/',indexRoutes);
+app.get('/users',usersRoutes);
+app.get('/products',productsRoutes);
+
+
+
 app.get('/header', (req,res) => res.sendFile(path.join(__dirname, 'views', 'partials' , 'header.html')));
 
 
