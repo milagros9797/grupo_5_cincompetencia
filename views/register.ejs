@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <%- include('./partials/head') %>
+<body>
+
+  <%- include('./partials/header') %>
+    <section>
+
+      <div class="formulario">
+        <h1>REGISTRATE</h1>
+        <h2>Datos personales</h2>
+    
+        <div class="campo">
+          <label for="nombre"></label>
+          <input type="text" id="nombre" required placeholder="*Nombre">
+        </div>
+    
+        <div class="campo">
+          <label for="apellido"></label>
+          <input type="text" id="apellido" required placeholder="*Apellido">
+        </div>
+    
+        <div class="campo_Dni">
+          <label for="tipo_dni"></label>
+          <select id="tipo_dni">
+            <option disabled selected > *Tipo DNI </option>
+            <option value="DNI">DNI</option>
+            <option value="LI">LI</option>
+            <option value="Cuil">Cuil</option>
+          </select>
+            
+          <label for="numero_documento"></label>
+          <input  id="numero_documento" required placeholder="*Numero de documento">
+    
+        </div>
+    
+        <div class="campo">
+          <label for="email"></label>
+          <input type="email" id="email" required placeholder="*Ingrese su Email">
+        </div>
+    
+        <div class="campo">
+          <label for="confirmar_email"></label>
+          <input type="email" id="confirmar_email" required placeholder="*Confirme su Email">
+        </div>
+    
+        <div class="campo">
+          <label for="contraseña"></label>
+          <input type="password" id="contraseña" required placeholder="*Ingrese su CONTRASEÑA">
+        </div>
+    
+        <div class="campo">
+          <label for="confirmar_contraseña"></label>
+          <input type="password" id="confirmar_contraseña" required placeholder="*Confirmar su CONTRASEÑA">
+        </div>
+    
+        <div class="campo">
+          <input type="checkbox" id="politicas" >
+          <label for="politicas">Acepto las políticas de privacidad y términos y condiciones.</label>
+        </div>
+        
+    
+        <div class="campo">
+          <input type="checkbox" id="promociones" >
+          <label for="promociones">Quiero recibir promociones y novedades de producto</label>
+        </div>
+    
+        <div>
+    
+        <button class="botonCrearC" type="submit" id="crear_cuenta">Crear mi cuenta</button>
+      </div>
+      </div>
+    </section>
+    <%- include('./partials/footer') %>
+</body>
+</html>

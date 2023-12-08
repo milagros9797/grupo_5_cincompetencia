@@ -1,102 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>productDetail | CINCOmpetencia</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    >
-    <link rel="stylesheet" href="/css/styles.css">
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      rel="stylesheet"
-    >
-</head>
+  <%- include('./partials/head-productDetail') %>
 <body class="product__body">
-
-  <header>
-    <section class="home__header">
-
-        <div class="burguer__menu">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-
-        <div class="home__header__logo">
-          <img src="/image/logo.png" alt="logo-cincompetencia"  height='120' width='120'>
-        </div>
-
-        <div class="home__header__i">
-
-        <div class="heart">
-          <i class="fa-solid fa-heart"></i>
-        </div>
-
-        <div class="user">
-          <i class="fa-solid fa-user"></i>
-        </div>
-
-        <div class="cart">
-          <i class="fa-solid fa-cart-shopping"></i>
-        </div>
-
-       </div>
-
-       <nav class="search__bar">
-        <input type="text" placeholder="">
-        <button class="lupa" type="submit"><i class="fas fa-search"></i></button>  
-       </nav>
-
-    </section>
-
-    <section class="home__header__iconos">
-
-        <i id="truck" class="fa-solid fa-truck-fast"></i>
-        <h4 id="entregas">Envíos a todo el país</h4>
-
-        <div class="tarjetas">
-          <div class="paypal">
-          <i class="fa-brands fa-cc-paypal"></i>
-        </div>
-
-        <div class="master">
-          <i class="fa-brands fa-cc-mastercard"></i>
-        </div> 
-
-        <div class="visa">
-          <i class="fa-brands fa-cc-visa"></i>
-        </div>
-
-        <div class="amex">
-          <i class="fa-brands fa-cc-amex"></i>
-          </div>
-        </div>  
-        
-        <i id="hand" class="fa-solid fa-hand-holding-dollar"></i>
-        <h4 id="medios-pagos">Todos los medios de pago</h4>
-
-        <div class="phone">
-          <div class="tel"> 
-           <i class="fa-solid fa-phone"></i>
-          </div> 
-           <h4>Tel: 11 2345 6789</h4>
-        </div>
-
-    </section>
-
-    <section>
-        <nav class="header__section">
-            <ul>
-                <li><a class="mujer" href="">Mujer</a></li>
-                <li><a class="hombre" href="">Hombre</a></li>
-                <li><a class="zapatillas" href="">Zapatillas</a></li>
-
-            </ul>
-        </nav>
-    </section>
-       
-    </header>
+  
+     <%- include('./partials/header') %>
+  
 
     <main class="product__main">
         <div class="product__div--arrow">
@@ -211,36 +119,6 @@
         },
       });
     </script>
-        <footer>
-            <div id="foot1">
-              <div id="foot1B">
-                <p>SUSCRIBITE Y RECIBI NOVEDADES Y PROMOCIONES</p>
-              </div>
-              <div id="foot1A">
-                <img id="imageFooter" src="./images/mail.jpg" alt="" >
-                <input id="inputFooter" type="text" placeholder="Ingresa tu email" >
-              </div>
-            </div>
-            <div id="foot2">
-              <select name="menu" id="names">
-                <option value="institucional">Institucional</option>
-              </select>
-              <select name="menu" id="names">
-                <option value="ayuda">Ayuda</option>
-              </select>
-              <select name="menu" id="names">
-                <option value="atencion al cliente">Atención al cliente</option>
-              </select>
-            </div>
-            <div id="foot3">
-              <img
-                id="imageFooter2"
-                src="./images/boton arrepentimiento.png"
-                alt=""
-              >
-              <img src="./images/codigo footer.png" alt="" >
-            </div>
-            <div id="foot4">2023 Copyritgh CINCOPENTENCIA</div>
-          </footer>
+        <%- include('./partials/footer') %>
 </body>
 </html>
