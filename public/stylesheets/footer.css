@@ -15,7 +15,8 @@ footer{
 #foot1A{
     display: flex;
     padding: 10px;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -36,8 +37,13 @@ footer{
 
 #inputFooter{
     align-items: center;
-    width: 80%;
-    border-radius: 5%;
+        justify-content: center;
+        width: 50%;
+        height: 30px;
+        border: none;
+        border-radius: 5%;
+        margin-left: 5px;
+    margin-left: 5px;
 
 }
 
@@ -62,11 +68,12 @@ div select{
     justify-content: space-around;
 
 }
-/* 
+
 #imageFooter2{
     border-radius: 10%;
     height: 30px;
-} */
+    width: 30px;
+}
 
 #foot4{
     display: flex;
@@ -103,12 +110,21 @@ div select{
         height: 30px;
         border: none;
         border-radius: 5%;
-        margin-bottom: 20px;
+        margin-left: 5px;
+        /* margin-bottom: 20px; */
     }
 
     /* #imageFooter{
         display: none;
     } */
+
+    #foot1A{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        
+    }
 
     #foot1B{
         display: flex;
