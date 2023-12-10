@@ -1,100 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home | CINCOmpetencia</title>
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <script src="https://kit.fontawesome.com/78a0423393.js" crossorigin="anonymous"></script>
-</head>
-<body class="index">
-    <header>
-        <section class="home__header">
-    
-            <div class="burguer__menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-    
-            <div class="home__header__logo">
+<!--include/head-->
+<%- include('./partials/head') %>
 
-                <a href="index.html">
-              <img src="/image/logo.png" alt="logo-cincompetencia"  height='120' width='120'>
-            </a>
-            </div>
-    
-            <div class="home__header__i">
-    
-            <div class="heart">
-              <i class="fa-solid fa-heart"></i>
-            </div>
-    
-            <div class="user">
-                <a href="register.html"> 
-              <i class="fa-solid fa-user"></i>
-              </a>
-            </div>
-    
-            <div class="cart">
-              <i class="fa-solid fa-cart-shopping"></i>
-            </div>
-    
-           </div>
-    
-           <nav class="search__bar">
-            <input type="text" placeholder="">
-            <button class="lupa" type="submit"><i class="fas fa-search"></i></button>  
-           </nav>
-    
-        </section>
-    
-        <section class="home__header__iconos">
-    
-            <i id="truck" class="fa-solid fa-truck-fast"></i>
-            <h4 id="entregas">Envíos a todo el país</h4>
-    
-            <div class="tarjetas">
-              <div class="paypal">
-              <i class="fa-brands fa-cc-paypal"></i>
-            </div>
-    
-            <div class="master">
-              <i class="fa-brands fa-cc-mastercard"></i>
-            </div> 
-    
-            <div class="visa">
-              <i class="fa-brands fa-cc-visa"></i>
-            </div>
-    
-            <div class="amex">
-              <i class="fa-brands fa-cc-amex"></i>
-              </div>
-            </div>  
-            
-            <i id="hand" class="fa-solid fa-hand-holding-dollar"></i>
-            <h4 id="medios-pagos">Todos los medios de pago</h4>
-    
-            <div class="phone">
-              <div class="tel"> 
-               <i class="fa-solid fa-phone"></i>
-              </div> 
-               <h4>Tel: 11 2345 6789</h4>
-            </div>
-    
-        </section>
-    
-        <section>
-            <nav class="header__section">
-                <ul>
-                    <li><a class="mujer" href="">Mujer</a></li>
-                    <li><a class="hombre" href="">Hombre</a></li>
-                    <li><a class="zapatillas" href="">Zapatillas</a></li>
-    
-                </ul>
-            </nav>
-        </section>
-           
-        </header>
-    <section class="banner"> <div><img src="/image/2.jpg" alt=""></div></section>
+<body class="index">
+<!--include/header-->
+    <%- include('./partials/header') %>
+
+    <section class="banner"> <div><img src="/images/2.jpg" alt=""></div></section>
 
 
     <main class="index__main">
@@ -102,39 +15,97 @@
         <section class="index__main__section">
             
 <article class="index__main__section__article">
- <img src="/image/9.png" alt="">
+ <img src="/images/9.png" alt="">
  <div class="comprar__a">
-    <a href=""><h3>Comprar</h3></a>
+    <h4>Remera Amarilla</h4>
+
+    <p class="p-main">$3400</p>
+    <div class="caja-comprar">
+    <a class="a-comprar" href="">Comprar</a>
+</div>
 </div>
 </article>
 <article class="index__main__section__article">
-<img src="/image/11.png" alt="">
-<div class="comprar__a">
-    <a href=""><h3>Comprar</h3></a>
-</div>
-</article>
-<article class="index__main__section__article">
-    <img src="/image/6.png" alt="">
-   <div class="comprar__a">
-    <a href=""><h3>Comprar</h3></a>
-    </article>
-    <article class="index__main__section__article">
-        <img src="/image/7.png" alt="">
-        <div class="comprar__a">
-           <a href=""><h3>Comprar</h3></a>
-       </div>
-       </article>
-       <article class="index__main__section__article">
-       <img src="/image/10.png" alt="">
-       <div class="comprar__a">
-           <a href=""><h3>Comprar</h3></a>
-       </div>
-       </article>
-       <article class="index__main__section__article">
-           <img src="/image/8.png" alt="">
-          <div class="comprar__a">
-           <a href=""><h3>Comprar</h3></a>
-</div>
+    <img src="/images/11.png" alt="">
+    <div class="comprar__a">
+       <h4>Corto azul</h4>
+   
+       <p class="p-main">$2500</p>
+       <div class="caja-comprar">
+       <a class="a-comprar" href="">Comprar</a>
+   </div>
+   </div>
+   </article>
+   <article class="index__main__section__article">
+    <img src="/images/6.png" alt="">
+    <div class="comprar__a">
+       <h4>Remera Bordo</h4>
+   
+       <p class="p-main">$3400</p>
+       <div class="caja-comprar">
+       <a class="a-comprar" href="">Comprar</a>
+   </div>
+   </div>
+   </article>
+   <article class="index__main__section__article">
+    <img src="/images/7.png" alt="">
+    <div class="comprar__a">
+       <h4>Remera Negra</h4>
+   
+       <p class="p-main">$5200</p>
+       <div class="caja-comprar">
+       <a class="a-comprar" href="">Comprar</a>
+   </div>
+   </div>
+   </article>
+   <article class="index__main__section__article">
+    <img src="/images/10.png" alt="">
+    <div class="comprar__a">
+       <h4>Remera Azul (marino)</h4>
+   
+       <p class="p-main">$4100</p>
+       <div class="caja-comprar">
+       <a class="a-comprar" href="">Comprar</a>
+   </div>
+   </div>
+   </article>
+   <article class="index__main__section__article">
+    <img src="/images/8.png" alt="">
+    <div class="comprar__a">
+       <h4>Remera Celeste</h4>
+   
+       <p class="p-main">$3100</p>
+       <div class="caja-comprar">
+       <a class="a-comprar" href="">Comprar</a>
+   </div>
+   </div>
+   </article>
+
+   <article class="index__main__section__article">
+    <img src="/images/campera.1.png" alt="">
+    <div class="comprar__a">
+       <h4>Campera Gris (oscuro)</h4>
+   
+       <p class="p-main">$6500</p>
+       <div class="caja-comprar">
+       <a class="a-comprar" href="">Comprar</a>
+   </div>
+   </div>
+   </article>
+
+
+  
+   <article class="index__main__section__article">
+    <img src="/images/camperon.2.png" alt="">
+    <div class="comprar__a">
+       <h4>Camperon Negro</h4>
+   
+       <p class="p-main">$8500</p>
+       <div class="caja-comprar">
+       <a class="a-comprar" href="">Comprar</a>
+   </div>
+   </div>
+   </article>
 
 
 
@@ -143,7 +114,7 @@
 </main>
 
 <section class="index__main__section2">
-<img class="img__zapatilla" src="/image/5.png" alt="">
+<img class="img__zapatilla" src="/images/5.png" alt="">
 
 
 
@@ -162,16 +133,16 @@
             <div class="itemCarrousel" id="itemCarrousel-1">
                 <div class="itemCarrouselTarjeta">
                     <div class="articulo">
-                        <img src="/image/7.png" alt="">
+                        <img src="/images/7.png" alt="">
                         <a class="carrusel__a" href="">Comprar</a>
                     </div>
                     <div  class="articulo">
-                        <img src="/image/10.png" alt="">
+                        <img src="/images/10.png" alt="">
                         <a class="carrusel__a" href="">Comprar</a>
                     </div>
 
                     <div  class="articulo articulo2">
-                        <img src="/image/9.png" alt="">
+                        <img src="/images/9.png" alt="">
                         <a class="carrusel__a" href="">Comprar</a>
                     </div>
                 </div>
@@ -187,15 +158,15 @@
             <div class="itemCarrousel" id="itemCarrousel-2">
                 <div class="itemCarrouselTarjeta">
                     <div class="articulo">
-                    <img src="/image/13.png" alt="">
+                    <img src="/images/13.png" alt="">
                     <a class="carrusel__a" href="">Comprar</a>
                 </div>
                 <div  class="articulo">
-                    <img src="/image/12.png" alt="">
+                    <img src="/images/12.png" alt="">
                     <a class="carrusel__a" href="">Comprar</a>
                 </div>
                 <div  class="articulo articulo2">
-                    <img src="/image/8.png" alt="">
+                    <img src="/images/8.png" alt="">
                     <a class="carrusel__a" href="">Comprar</a>
                 </div>
                 </div>
@@ -211,15 +182,15 @@
             <div class="itemCarrousel" id="itemCarrousel-3">
                 <div class="itemCarrouselTarjeta">
                     <div class="articulo">
-                    <img src="/image/3.png" alt="">
+                    <img src="/images/3.png" alt="">
                     <a class="carrusel__a" href="">Comprar</a>
                 </div>
                 <div  class="articulo">
-                    <img src="/image/1.png" alt="">
+                    <img src="/images/1.png" alt="">
                     <a class="carrusel__a" href="">Comprar</a>
                 </div>
                 <div  class="articulo articulo2 ">
-                    <img src="/image/6.png" alt="">
+                    <img src="/images/6.png" alt="">
                     <a class="carrusel__a" href="">Comprar</a>
                 </div>
             </div>
@@ -287,13 +258,13 @@
 
 
 <div class="contenedor">
-    <div class="img1"><img  src="/image/17.png" alt=""></div>
+    <div class="img1"><img  src="/images/17.png" alt=""></div>
 
 <div class="none"> <h3>DALE PODER A TU ENTRENAMIENTO</h3>
 <p>indumentarias hechas especialmente con materiales reciclados</p>
 <p class="enlace__conoce-mas"><a href="">Conoce mas</a></p></div>
  
-    <div class="img1"><img src="/image/18.png" alt=""></div>
+    <div class="img1"><img src="/images/18.png" alt=""></div>
        
 </div>
 
@@ -307,34 +278,7 @@
 
 
 
-   <footer>
-    <div id="foot1">
-      <div id="foot1B">
-      <p>SUSCRIBITE Y RECIBI NOVEDADES Y PROMOCIONES </p>
-    </div>  
-      <div id="foot1A">
-        <img id="imageFooter" src="/image/mail.jpg" >
-        <input id="inputFooter" type="email" placeholder="Ingresa tu email">
-      </div>
-    </div>
-    <div id="foot2">
-        <select name="menu" id="names">
-          <option value="institucional">Institucional</option>
-        </select>
-        <select name="menu" id="names">
-            <option value="ayuda">Ayuda</option>
-        </select>
-        <select name="menu" id="names">
-            <option value="atencion al cliente">Atención al cliente</option>
-        </select>
-    </div>
-    <div id="foot3">
-        <button id="btnArrep"> Boton de arrepentimiento</button>
-        <img id="imageFooter" src="/image/codigo footer.png" alt="">
-    </div>
-    <div id="foot4">
-        2023 Copyritgh CINCOPENTENCIA</div>
-</footer>  
+    <%- include('./partials/footer') %>
   
 </body>
 </html>
