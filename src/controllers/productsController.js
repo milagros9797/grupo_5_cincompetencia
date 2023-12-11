@@ -4,7 +4,7 @@ productDetail : (req,res) => {
  },
 
 productCart : (req,res) => {
-    return res.render('/products/productCar')
+    return res.render('products/productCart')
  
 }
 }

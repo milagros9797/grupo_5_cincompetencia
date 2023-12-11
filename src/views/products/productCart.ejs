@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productCart | CINCOmpetencia</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 <body class="index">
     
@@ -90,36 +90,92 @@
            
         </header>
 
-    <main class="index__main">
-
-    </main>
-    <footer>
-    <div id="foot1">
-      <div id="foot1B">
-      <p>SUSCRIBITE Y RECIBI NOVEDADES Y PROMOCIONES </p>
-    </div>  
-      <div id="foot1A">
-        <img id="imageFooter" src="/image/mail.jpg" >
-        <input id="inputFooter" type="email" placeholder="Ingresa tu email">
-      </div>
-    </div>
-    <div id="foot2">
-        <select name="menu" id="names">
-          <option value="institucional">Institucional</option>
-        </select>
-        <select name="menu" id="names">
-            <option value="ayuda">Ayuda</option>
-        </select>
-        <select name="menu" id="names">
-            <option value="atencion al cliente">Atención al cliente</option>
-        </select>
-    </div>
-    <div id="foot3">
-        <button id="btnArrep"> Boton de arrepentimiento</button>
-        <img id="imageFooter" src="/image/codigo footer.png" alt="">
-    </div>
-    <div id="foot4">
-        2023 Copyritgh CINCOPENTENCIA</div>
-</footer>  
+        <main>
+          <div id="tittles">
+          <div id="titlle1">
+          <h3>Continuar comprando</h3>
+          </div>
+          <h2>MI CARRITO</h2>
+          </div>
+          <div id="miCarrito">
+              <div id="miCarritoSuperior">
+                  <div id="miCarrito1">
+                      <img src="/image/remeraRoja.webp" alt="">
+                      <div id="miCarrito1A">
+                          <h3>REMERA</h3>
+                          <ul style="list-style:none ">
+                              <li>Color: Rojo Oscuro</li>
+                              <li>Talle: XS</li>
+                          </ul>
+                          <div id="miCarrito1AA">
+                              <div id="miCarCantidad">
+                                  <label for="cantidad">Cantidad</label>
+                                  <select name="cantidad" id="cantidad">
+                                      <option value="1">1</option>
+                                  </select>
+                              </div>
+                              <div id="miCarPrecio"> 
+                                  <h5>Total</h5>
+                                  <p>$5000</p>
+                              </div>
+                          </div>
+                          <p>ELIMINAR PRODUCTO</p>
+                      </div>
+                  </div>
+                  <div id="miCarrito2">
+                      <h3>RESUMEN DE COMPRA</h3>
+                      <div id="miCarrito2A">
+                          <h4>Subtotal:</h4>
+                          <h4>$5.000</h4>
+                      </div>
+                      <div>
+                          <h4>Calcula el Costo de envio</h4>
+                          <div id="codigoPostal">
+                              <input type="text" value="" placeholder="Código Postal">
+                              <button type="button">CALCULAR</button>
+                          </div>
+                      </div>
+                      <div id="cpComprar">
+                          <div id="totalCP">
+                              <h3>Total:</h3>
+                              <h3>$5.000</h3>
+                          </div>
+                          <button type="submit">COMPRAR</button>
+                      </div>
+                  </div>
+              </div>
+              <h3>RECOMENDADOS PARA VOS</h3>
+              <div id="miCarritoFinal">
+                  
+                  <div id="miCarritoFinal2">
+                      <img src="/image/imagen Remera Chivo.jpeg" alt="">
+                      <div id="miCarritoFinal2A">
+                          <h2>Remera gráfica Goat</h2>
+                          <h2>$7.000</h2>
+                      </div>
+                  </div>
+                  <div class="additional-image hidden-on-small">
+                    <img src="/image/zapatilla azul.jpg" alt="">
+                    <div id="miCarritoFinal2A">
+                        <h2>Zapatillas Azules</h2>
+                        <h2>$9500</h2>
+                    </div>
+                </div>
+                <div class="additional-image hidden-on-small">
+                    <img src="/image/zapatilla verde.jpeg" alt="">
+                    <div id="miCarritoFinal2A">
+                        <h2>Zapatillas Verdes</h2>
+                        <h2>$85000</h2>
+                    </div>
+                </div>
+              </div>
+          </div>
+    
+  
+  
+      </main>
+    
+    <%- include('../partials/footer') %>
+  
 </body>
 </html>
