@@ -30,7 +30,6 @@ Consultas por fuera del grupo, hacerlas en general.
 ## Link de tablero jira: https://milagrosh.atlassian.net/jira/software/projects/CIN/boards/2
 
 ***
----
 
 # Conclusiones del  sprint2
 
