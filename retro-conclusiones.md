@@ -1,4 +1,38 @@
-# Conclusiones del primer sprint
+# retro sprint 03
+
+Apreciación grupal: Con respecto al  sprint1, es que lo más difícil (para un parcial de integrantes del equipo) o desafiante fue CSS, hablo de  lograr la apariencia deseada. Lo veo como algo positivo que lo hicimos parecido al dibujo de las páginas.
+
+## EMPESAR A HACER/ Start Doing:
+Administrar mejor nuestros tiempos para entregar en tiempo así evitamos las entregas pasadas la fecha limite.
+Promover una retroalimentación continua
+
+
+## HACER MÁS/ More of:
+Hacer más reuniones, semanales o daylis, con STATUS reales.
+Ser mas sinceros a cuanto a su tiempo y responsabilidades, respetando de esta manera al compañero.
+Mejorar el flujo de comunicación
+Estuvo bueno/ayudo las reuniones que se hicieron post cursada.
+Mejorar el compromiso para los próximos sprint. 
+No ser un grupo, **SER UN EQUIPO.**
+
+## CONTINUAR HACIENDO/Keep Doing:
+Compañerismos, buena predisposición. Saber entender al otro.
+
+
+## HACER MENOS/ Less of:
+Postergar fechas.
+Concientizarse que si no vas a poder inicias apenas arrancado el sprint, NO asignarte tareas, que sean correlativas con las de otro compañero.
+
+## DEJAR DE HACER/ Stop Doing:
+Gostin, desaparecer. 
+Consultas por fuera del grupo, hacerlas en general.
+
+## Link de tablero jira: https://milagrosh.atlassian.net/jira/software/projects/CIN/boards/2
+
+***
+---
+
+# Conclusiones del  sprint2
 
 *  Pudimos llegar al objetivo aunque costo
 
