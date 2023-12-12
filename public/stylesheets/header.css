@@ -25,7 +25,6 @@
 
 }
 .home__header__i {
-    color: #695D62;
     display: flex;
     font-size: 15px;
     width: 25%;
@@ -33,19 +32,26 @@
     flex-grow: 1;   
 }  
 
-.heart{
+
+.home__header__i div a {
+    color: #695D62;
+}
+.heart {
   padding: 0 10px;
   margin-top: 50px;
+ 
 }
 
-.user{
+.user {
     padding: 0 10px;
     margin-top: 50px;
+    
 }
 
-.cart{
+.cart {
    padding: 0 10px;
    margin-top: 50px;
+   
 }
 
 .home__header__iconos {

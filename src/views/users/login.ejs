@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--include/head-->
+<%- include('../partials/head') %>
+
+<body class="index">
+<!--include/header-->
+    <%- include('../partials/header') %>
+    
+  <section>
+    <div class="container">
+      <form action="/login" method="post">
+  
+        <h1>Ingresa a tu cuenta</h1>
+        <div class="form-group">
+  
+          <label for="email"></label> 
+          
+          <input type="email" name="email" id="email" class="form-control" placeholder="Ingrese su USUARIO">
+        </div>
+        <div class="form-group">
+          <label for="password"></label>
+      </div>
+      <div>
+          <input type="password" name="password" id="password" class="form-control" placeholder="Ingrese su CONTRASEÑA" >
+        </div>
+        <div class="form-group">
+          <a href="forgot_password.html" class="btn_btn-link">Olvidé mi contraseña</a>
+          <br>
+        </div>
+        <div class="form-group">
+  
+          <a href="/" class="btn btn-outline-secondary">Home</a>
+          
+          <button type="submit" class="btn btn-primary">Entrar</button>
+      
+  
+          
+        </div>
+        <div class="form-group">
+          
+          
+          <a href="registro" class="link-register">¿No tienes cuenta? Regístrate</a>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <%- include('../partials/footer') %>
+</body>
+</html>
