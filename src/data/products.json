@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "zapatilla azul adiddas",
+        "description":"calzado correspondiente para le running",
+        "price":"9500",
+        "image":[],
+        "category":"calzado"
+    },
+    {
+        "id": 2,
+        "name": "zapatilla verdes pumma",
+        "description":"calzado correspondiente para el gimansio",
+        "price":"8500",
+        "image":[],
+        "category":"calzado"
+    },
+    {
+        "id": 3,
+        "name": "Remera gráfica Goat",
+        "description":"para eventos casuales",
+        "price":"7500",
+        "image":[],
+        "category":"remeras"
+    }
+]
