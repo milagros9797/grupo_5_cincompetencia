@@ -1,5 +1,5 @@
 const express = require('express');
-const { productDetail, productCart } = require('../controllers/productsController');
+const { productDetail, productCart, add, edit } = require('../controllers/productsController');
 
 const router = express.Router();
 
@@ -7,6 +7,10 @@ const router = express.Router();
 router
 .get('/productDetail/:id?',productDetail )
 .get('/productCart',productCart)
+.get('/agregar', add)
+.get('/editar/:id?', edit)
+
+
 
 
 

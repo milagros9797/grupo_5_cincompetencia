@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/headDashboard',{ title:'Dashboard'})%>
+
+<body>
+    <%- include('./partials/headerDashboard') %>
+
+    <main class="container">
+        <section class="row my-5">
+         <div class="col-12 col-md-10 mx-auto">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <h4 class="cart-title">Indumentaria </h4>
+                    <a class="btn btn-dark" href="/products/agregar">Nuevo</a>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Categoria</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <% products.forEach(({id,name,color,talle,price,category}) => {%>
+
+                                <tr>
+                                    <th scope="row"><%=id %></th>
+                                    <td><%=name %></td>
+                                    <td><%=color %></td>
+                                    <td><%=talle %></td>
+                                    <td><%=price %></td>
+                                    <td><%=category %></td>
+                                    <td> <a class="text-primary" href="./products/editar/">Editar</a></td>
+                                  </tr>
+                               
+                
+                            <% }) %>                    
+
+                        </tbody>
+                      </table>
+
+                </div>
+
+            </div>
+
+         </div>
+
+
+        </section>
+
+    </main>
+
+    <%- include('./partials/footer') %>
+</body>
+</html>
