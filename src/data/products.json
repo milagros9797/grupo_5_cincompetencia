@@ -1,0 +1,334 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pantalon ancho",
+        "talle": "S",
+        "descripción": "Cintura elastica,Bolsillos laterales",
+        "stock" : 12,
+        "color": "beige claro",
+        "images": [],
+        "precio": 10.000
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon ancho",
+        "talle": "M",
+        "descripción": "Cintura elastica,Bolsillos laterales",
+        "stock" : 7,
+        "color": "beige claro",
+        "images": [],
+        "precio": 10.000
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon ancho",
+        "talle": "L",
+        "descripción": "Cintura elastica,Bolsillos laterales",
+        "stock" : 5,
+        "color": "beige claro",
+        "images": [],
+        "precio": 10.000
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon ancho",
+        "talle": "XL",
+        "descripción": "Cintura elastica,Bolsillos laterales",
+        "stock" : 6,
+        "color": "beige claro",
+        "images": [],
+        "precio": 10.000
+    },
+
+    {
+        "id": 2,
+        "nombre": "Remera",
+        "talle": "S",
+        "descripción": "Lisa",
+        "stock" : 8,
+        "color": "Roja",
+        "images": [],
+        "precio":5.000
+    },
+    {
+        "id": 2,
+        "nombre": "Remera",
+        "talle": "M",
+        "descripción": "Lisa",
+        "stock" : 9,
+        "color": "Roja",
+        "images": [],
+        "precio":5.000
+    },
+    {
+        "id": 2,
+        "nombre": "Remera",
+        "talle": "L",
+        "descripción": "Lisa",
+        "stock" : 2,
+        "color": "Roja",
+        "images": [],
+        "precio":5.000
+    },
+    {
+        "id": 2,
+        "nombre": "Remera",
+        "talle": "XL",
+        "descripción": "Lisa",
+        "stock" : 6,
+        "color": "Roja",
+        "images": [],
+        "precio":5.000
+    },
+
+    {
+        "id": 3,
+        "nombre": "Remera",
+        "talle": "S",
+        "descripción": "Lisa",
+        "stock" : 4,
+        "color": "Negra",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 3,
+        "nombre": "Remera",
+        "talle": "M",
+        "descripción": "Lisa",
+        "stock" : 4,
+        "color": "Negra",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 3,
+        "nombre": "Remera",
+        "talle": "L",
+        "descripción": "Lisa",
+        "stock" : 5,
+        "color": "Negra",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 3,
+        "nombre": "Remera",
+        "talle": "XL",
+        "descripción": "Lisa",
+        "stock" : 3,
+        "color": "Negra",
+        "images": [],
+        "precio": 5.000
+    },
+    
+    {
+        "id": 4,
+        "nombre": "Remera",
+        "talle": "S",
+        "descripción": "Lisa",
+        "stock" : 6,
+        "color": "Amarilla",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 4,
+        "nombre": "Remera",
+        "talle": "M",
+        "descripción": "Lisa",
+        "stock" : 3,
+        "color": "Amarilla",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 4,
+        "nombre": "Remera",
+        "talle": "L",
+        "descripción": "Lisa",
+        "stock" : 7,
+        "color": "Amarilla",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 4,
+        "nombre": "Remera",
+        "talle": "XL",
+        "descripción": "Lisa",
+        "stock" : 9,
+        "color": "Amarilla",
+        "images": [],
+        "precio": 5.000
+    },
+    
+    {
+        "id": 5,
+        "nombre": "Remera",
+        "talle": "S",
+        "descripción": "Lisa",
+        "stock" : 6,
+        "color": "Bordo",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 5,
+        "nombre": "Remera",
+        "talle": "M",
+        "descripción": "Lisa",
+        "stock" : 8,
+        "color": "Bordo",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 5,
+        "nombre": "Remera",
+        "talle": "L",
+        "descripción": "Lisa",
+        "stock" : 5,
+        "color": "Bordo",
+        "images": [],
+        "precio": 5.000
+    },
+    {
+        "id": 5,
+        "nombre": "Remera",
+        "talle": "XL",
+        "descripción": "Lisa",
+        "stock" : 5,
+        "color": "Bordo",
+        "images": [],
+        "precio": 5.000
+    },
+
+    {
+        "id": 6,
+        "nombre": "Short",
+        "talle": "S",
+        "descripción": "Impermeable",
+        "stock" : 7,
+        "color": "Azul con negro",
+        "images": [],
+        "precio": 6.000
+    },
+    {
+        "id": 6,
+        "nombre": "Short",
+        "talle": "M",
+        "descripción": "Impermeable",
+        "stock" : 6,
+        "color": "Azul con negro",
+        "images": [],
+        "precio": 6.000
+    },
+    {
+        "id": 6,
+        "nombre": "Short",
+        "talle": "L",
+        "descripción": "Impermeable",
+        "stock" : 12,
+        "color": "Azul con negro",
+        "images": [],
+        "precio": 6.000
+    },
+    {
+        "id": 6,
+        "nombre": "Short",
+        "talle": "XL",
+        "descripción": "Impermeable",
+        "stock" : 9,
+        "color": "Azul con negro",
+        "images": [],
+        "precio": 6.000
+    },
+
+    {
+        "id": 7,
+        "nombre": "Zapatillas",
+        "talle": "36",
+        "descripción": "urbanas",
+        "stock" : 2,
+        "color": "Salmon",
+        "images": [],
+        "precio": 170.000
+    },
+    {
+        "id": 7,
+        "nombre": "Zapatillas",
+        "talle": "37",
+        "descripción": "urbanas",
+        "stock" : 3,
+        "color": "Salmon",
+        "images": [],
+        "precio": 170.000
+    },
+    {
+        "id": 7,
+        "nombre": "Zapatillas",
+        "talle": "38",
+        "descripción": "urbanas",
+        "stock" : 3,
+        "color": "Salmon",
+        "images": [],
+        "precio": 170.000
+    },
+    {
+        "id": 7,
+        "nombre": "Zapatillas",
+        "talle": "39",
+        "descripción": "urbanas",
+        "stock" : 5,
+        "color": "Salmon",
+        "images": [],
+        "precio": 170.000
+    },
+
+    {
+        "id": 8,
+        "nombre": "Zapatillas",
+        "talle": "36",
+        "descripción": "Running",
+        "stock" : 9,
+        "color": "Azul",
+        "images": [],
+        "precio": 150.000
+    },
+    {
+        "id": 8,
+        "nombre": "Zapatillas",
+        "talle": "37",
+        "descripción": "Running",
+        "stock" : 6,
+        "color": "Azul",
+        "images": [],
+        "precio": 150.000
+    },
+
+    {
+        "id": 8,
+        "nombre": "Zapatillas",
+        "talle": "38",
+        "descripción": "Running",
+        "stock" : 4,
+        "color": "Azul",
+        "images": [],
+        "precio": 150.000
+    },
+
+    {
+        "id": 8,
+        "nombre": "Zapatillas",
+        "talle": "39",
+        "descripción": "Running",
+        "stock" : 9,
+        "color": "Azul",
+        "images": [],
+        "precio": 150.000
+    }
+
+
+  
+]
