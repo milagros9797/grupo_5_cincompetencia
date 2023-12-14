@@ -11,6 +11,86 @@
     
     <main class="index__main">
 
+        <div id="tittles">
+            <div id="titlle1">
+            <h3>Continuar comprando</h3>
+            </div>
+            <h2>MI CARRITO</h2>
+            </div>
+            <div id="miCarrito">
+                <div id="miCarritoSuperior">
+                    <div id="miCarrito1">
+                        <img src="/images/remeraRoja.webp" alt="">
+                        <div id="miCarrito1A">
+                            <h3>REMERA</h3>
+                            <ul style="list-style:none ">
+                                <li>Color: Rojo Oscuro</li>
+                                <li>Talle: XS</li>
+                            </ul>
+                            <div id="miCarrito1AA">
+                                <div id="miCarCantidad">
+                                    <label for="cantidad">Cantidad</label>
+                                    <select name="cantidad" id="cantidad">
+                                        <option value="1">1</option>
+                                    </select>
+                                </div>
+                                <div id="miCarPrecio"> 
+                                    <h5>Total</h5>
+                                    <p>$5000</p>
+                                </div>
+                            </div>
+                            <p>ELIMINAR PRODUCTO</p>
+                        </div>
+                    </div>
+                    <div id="miCarrito2">
+                        <h3>RESUMEN DE COMPRA</h3>
+                        <div id="miCarrito2A">
+                            <h4>Subtotal:</h4>
+                            <h4>$5.000</h4>
+                        </div>
+                        <div>
+                            <h4>Calcula el Costo de envio</h4>
+                            <div id="codigoPostal">
+                                <input type="text" value="" placeholder="Código Postal">
+                                <button type="button">CALCULAR</button>
+                            </div>
+                        </div>
+                        <div id="cpComprar">
+                            <div id="totalCP">
+                                <h3>Total:</h3>
+                                <h3>$5.000</h3>
+                            </div>
+                            <button type="submit">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+                <h3>RECOMENDADOS PARA VOS</h3>
+                <div id="miCarritoFinal">
+                    
+                    <div id="miCarritoFinal2">
+                        <img src="/images/imagen Remera Chivo.jpeg" alt="">
+                        <div id="miCarritoFinal2A">
+                            <h2>Remera gráfica Goat</h2>
+                            <h2>$7.000</h2>
+                        </div>
+                    </div>
+                    <div class="additional-image hidden-on-small">
+                      <img src="/images/zapatilla azul.jpg" alt="">
+                      <div id="miCarritoFinal2A">
+                          <h2>Zapatillas Azules</h2>
+                          <h2>$9500</h2>
+                      </div>
+                  </div>
+                  <div class="additional-image hidden-on-small">
+                      <img src="/images/zapatilla verde.jpeg" alt="">
+                      <div id="miCarritoFinal2A">
+                          <h2>Zapatillas Verdes</h2>
+                          <h2>$8500</h2>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
     </main>
 
     <%- include('../partials/footer') %>

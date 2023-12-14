@@ -1,0 +1,10 @@
+#nombreProduct{
+    border: 1px solid var(--colorAzulOscuro);
+    padding: 8px;
+}
+
+#descriptionProduct{
+    border: 1px solid var(--colorAzulOscuro);
+    padding: 8px;
+}
+
