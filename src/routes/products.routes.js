@@ -1,6 +1,6 @@
 const express = require('express');
-const { productDetail, productCart, add, edit } = require('../controllers/productsController');
-
+const { productDetail, productCart, add, edit, create} = require('../controllers/productsController');
+const upload = require('../middlewares/upload');
 const router = express.Router();
 
 /* /productos */
@@ -8,7 +8,9 @@ router
 .get('/productDetail/:id?',productDetail )
 .get('/productCart',productCart)
 .get('/agregar', add)
+.post('/crear',upload.single('mainImage'),create)
 .get('/editar/:id?', edit)
+
 
 
 
