@@ -366,5 +366,13 @@
       "description": "excelente pantalon de verano",
       "mainImage": null,
       "category": "Pantalones"
+   },
+   {
+      "id": "dd9e3eab-3bfc-4e4a-a45a-ea5485438e47",
+      "name": "remera verano",
+      "price": "80000",
+      "description": "remera verde de ocacion",
+      "mainImage": null,
+      "category": "Remeras"
    }
 ]
