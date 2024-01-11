@@ -1,6 +1,6 @@
 const add = require('./add')
 const create = require('./create')
-
+const remove = require('./remove')
 
 module.exports = {
     add, 
@@ -15,6 +15,7 @@ productDetail : (req,res) => {
     }, 
     edit: (req,res)=>{
         return res.render('products/product-edit')
-    }  
+    } ,
+    remove
     
     }
