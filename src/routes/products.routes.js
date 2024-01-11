@@ -9,7 +9,7 @@ router
 .get('/productCart',productCart)
 .get('/agregar', add)
 .get('/editar/:id?', edit)
-
+.delete('/eliminar/:id',remove)
 
 
 
