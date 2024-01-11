@@ -27,13 +27,12 @@
                           </tr>
                         </thead>
                         <tbody>
-                            <% products.forEach(({id,name,color,talle,price,category}) => {%>
+                            <% products.forEach(({id,name,description,price,category}) => {%>
 
                                 <tr>
                                     <th scope="row"><%=id %></th>
                                     <td><%=name %></td>
-                                    <td><%=color %></td>
-                                    <td><%=talle %></td>
+                                    <td><%=description %></td>
                                     <td><%=price %></td>
                                     <td><%=category %></td>
                                     <td>

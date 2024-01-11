@@ -16,15 +16,22 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
+app.use(cookieParser());
+
+/*formularios*/
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname,'..', 'public')))
+app.use(cookieParser())
+
 
 /* soporte para métodos PUT,PATCH & DELETE */
 .use(methodOverride('_method'))
 
-/* rutas */
+/*recursos estaticos*/
+app.use(express.static(path.join(__dirname,'..', 'public')));
+
+
+/*rutas*/
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/products', productsRouter);
