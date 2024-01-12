@@ -1,4 +1,4 @@
-# Retro Sprint04:
+# Retro  Sprint04:
 
 ## EMPESAR A HACER/ Start Doing:
 Pedir ayuda al grupo o asistir a clase de apoyo cuando algo se nos complica o traba
@@ -24,7 +24,7 @@ Consultas por fuera del grupo, hacerlas en general.
 Tener conciencia de que el integrador es también parte del curso, no solo las actividades individuales. 
 
 
-## Link de tablero jira: https://milagrosh.atlassian.net/jira/software/projects/CIN/boards/2
+### Link de tablero jira: https://milagrosh.atlassian.net/jira/software/projects/CIN/boards/2
 
 
 
