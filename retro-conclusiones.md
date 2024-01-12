@@ -1,16 +1,27 @@
 # Retro Sprint04:
 
 ## EMPESAR A HACER/ Start Doing:
-
+Pedir ayuda al grupo o asistir a clase de apoyo cuando algo se nos complica o traba
+Administrar mejor nuestros tiempos para entregar en tiempo así evitamos las entregas pasadas la fecha limite.
 
 ## HACER MÁS/ More of:
+Aprovechar la fortaleza que somos el único grupo con 5 integrantes.
+Mejorar el compromiso para los próximos sprint. 
+Fomentar al comunicación
+Hacer más reuniones, semanales o daylis, con STATUS reales.
+Ser mas sinceros a cuanto a su tiempo y responsabilidades, respetando de esta manera al compañero.
 
 ## CONTINUAR HACIENDO/Keep Doing:
+Llevar a la realidad algunas medidas que charlaron y nos ayudarían y quedaron relegadas.
+Compañerismos, buena predisposición. Saber entender al otro.
 
 ## HACER MENOS/ Less of:
+Postergar fechas.
+Concientizarse que si no vas a poder inicias apenas arrancado el sprint, NO asignarte tareas, que sean correlativas con las de otro compañero.
 
 ## DEJAR DE HACER/ Stop Doing:
-
+Consultas por fuera del grupo, hacerlas en general.
+Tener conciencia de que el integrador es también parte del curso, no solo las actividades individuales. 
 
 
 ## Link de tablero jira: https://milagrosh.atlassian.net/jira/software/projects/CIN/boards/2
