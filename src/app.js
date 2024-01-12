@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const methodOverride = require('method-override')
 
 var indexRouter = require('./routes/index.routes');
 var usersRouter = require('./routes/users.routes');
@@ -15,11 +16,25 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
+app.use(cookieParser());
+
+/*formularios*/
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
+app.use(cookieParser())
+
+
+/* soporte para métodos PUT,PATCH & DELETE */
+.use(methodOverride('_method'))
+
+/*recursos estaticos*/
 app.use(express.static(path.join(__dirname,'..', 'public')));
 
+/* soporte para métodos PUT, PATCH & DELETE*/ 
+app.use(methodOverride('_method'))
+
+
+/*rutas*/
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/products', productsRouter);
