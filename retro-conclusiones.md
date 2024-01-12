@@ -28,8 +28,6 @@ Tener conciencia de que el integrador es también parte del curso, no solo las a
 
 
 
-
-
 # Retro sprint 03.
 Apreciación grupal: Con respecto al  sprint1, es que lo más difícil (para un parcial de integrantes del equipo) o desafiante fue CSS, hablo de  lograr la apariencia deseada. Lo veo como algo positivo que lo hicimos parecido al dibujo de las páginas.
 
