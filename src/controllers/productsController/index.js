@@ -1,6 +1,9 @@
 const add = require('./add')
 const create = require('./create')
 const remove = require('./remove')
+const edit = require('./edit')
+
+
 
 module.exports = {
     add, 
@@ -13,9 +16,8 @@ productDetail : (req,res) => {
         return res.render('products/productCart')
      
     }, 
-    edit: (req,res)=>{
-        return res.render('products/product-edit')
-    } ,
-    remove
+    edit ,
+   
+    remove,
     
     }

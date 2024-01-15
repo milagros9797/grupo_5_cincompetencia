@@ -2,7 +2,7 @@
 <html lang="es">
   
 <%- include('../partials/head-detail') %>
-
+  
 <body class="product">
 
   <%- include('../partials/headerDashboard') %>
@@ -23,51 +23,57 @@
             <div class="card-body">
                 <form action="" class="row">
 
-                    <h3>Editar producto</h3>
+                    <h3>Editar producto: "<%= name %>"</h3>
 
                     
                     <div class="col-12 col-md-6">
                       <label for="floatingInput">Nombre del producto:</label>
                 <div class="form-floating ">
-                    <input name="name" type="text" class="form-control" id="name" placeholder="nombre">
+                    <input name="name" type="text" class="form-control" id="name" placeholder="nombre" value="<%= name %>">
                 </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <label for="floatingInput">Precio del producto:</label>
                   <div class="form-floating">
-                    <input name="price" type="number" class="form-control" id="precio" placeholder="precio">                
+                    <input name="price" type="number" class="form-control" id="precio" placeholder="precio" value="<%= price %>">                
                   </div>
                 </div>
+               
                 <div class="col-12 col-md-6">
-                  <label for="floatingTextarea2">Descripcion</label>
-                <div class="form-floating">
-                    <textarea name="description" class="form-control" placeholder="Descripcion" id="Descripcion" style="height: 100px"></textarea>
-                  
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <label for="category">Categoria</label>
+                  <label for="category">Categoria:</label>
                     <div class="form-floating">
-                        <select value="" name="category" class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                          <option selected hidden>Seleccionar</option>
-                          <option value="1">Remeras</option>
-                          <option value="2">Pantalones</option>
-                          <option value="3">Calzado</option>
+                        <select value="" name="category" class="form-select" id= aria-label="Floating label select example">
+                          
+                          <option <%= category === "remera" && 'selected' %> value= "remeras">Remeras</option>
+                          <option <%= category === "pantalones" && 'selected' %> value= "pantalones">Pantalones</option>
+                          <option <%= category === "calzado" && 'selected' %> value= "calzado">Calzado</option>
                         </select>
                         
                       </div>
                   </div>
-
-                  <div class="col-12 col-md-6">
-                    <label for="category" class="form-label">Seleccionar imagen:</label>
-                    <input type="file" id="image" name="image" class="form-input col-12 col-md-12">
-                  </div>
+                  
+                  <div class="col-12 col-md-3 mt-4">
+                    <input name="mainImage" type="file" class="form-control" id="mainImage" hidden>
+                    <label class= "btn btn-lg btn-outline-dark  w-100" for="mainImage">Imagen principal</label>
+          
+                </div>
+                <div class="col-12 col-md-3 mt-4">
+                  <input name="images" type="file" class="form-control" id="images" hidden multiple>
+                  <label class= "btn btn-lg btn-outline-dark w-100" for="images">Imagenes</label>
 
             </div>
-                <div class="col-12 col-md-6">
-                  <button type="submit" class="buy-now-button">Guardar edición</button>
+
+                  <div class="col-12">
+                    <label for="floatingTextarea2">Descripcion:</label>
+                  <div class="form-floating">
+                      <textarea name="description" class="form-control" placeholder="Descripcion" id="Descripcion" style="height: 100px"><%= description %></textarea>
                     
-                </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 mt-3 d-flex justify-content-end">
+                    
+                    <button type="submit" class= "btn btn-lg btn-dark" >Guardar edición</button>
                 
                 </form>
             </div>
