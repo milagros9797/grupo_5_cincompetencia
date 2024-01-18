@@ -16,7 +16,7 @@ productDetail : (req,res) => {
         return res.render('products/productCart')
      
     }, 
-    edit ,
+    edit,
    
     remove,
     

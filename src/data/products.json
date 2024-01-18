@@ -352,14 +352,6 @@
       "price": 150
    },
    {
-      "id": "f51ed23d-0ae0-480d-a35b-1d01c52e193e",
-      "name": "pantalon verano",
-      "price": "40000",
-      "description": "pantalon de uso de verano",
-      "mainImage": null,
-      "category": "2"
-   },
-   {
       "id": "2bf43ac1-8767-40c1-8309-40e3150e8497",
       "name": "pantalon verano",
       "price": "25000",
@@ -371,8 +363,16 @@
       "id": "dd9e3eab-3bfc-4e4a-a45a-ea5485438e47",
       "name": "remera verano",
       "price": "80000",
-      "description": "remera verde de ocacion",
+      "description": "remera verde de ocasión",
       "mainImage": null,
       "category": "Remeras"
+   },
+   {
+      "id": "5e49b07a-5322-4542-b7f2-40695c37d006",
+      "name": "Zapatilla Nike",
+      "price": "134",
+      "description": "vvbvbbbhgtt",
+      "mainImage": null,
+      "category": "Calzado"
    }
 ]

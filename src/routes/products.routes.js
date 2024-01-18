@@ -10,7 +10,7 @@ router
 .get('/productCart',productCart)
 .get('/agregar', add)
 .post('/crear',upload.single('mainImage'),create)
-.get('/editar/:id?', edit)
+.get('/editar/:id?',edit)
 .delete('/eliminar/:id', remove)
 
 

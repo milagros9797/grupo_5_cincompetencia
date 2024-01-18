@@ -23,7 +23,7 @@
             <div class="card-body">
                 <form action="" class="row">
 
-                    <h3>Editar producto: "<%= name %>"</h3>
+                    <h3>Editar producto:  "<%= name %>"</h3>
 
                     
                     <div class="col-12 col-md-6">
@@ -42,14 +42,36 @@
                 <div class="col-12 col-md-6">
                   <label for="category">Categoria:</label>
                     <div class="form-floating">
-                        <select value="" name="category" class="form-select" id= aria-label="Floating label select example">
-                          
-                          <option <%= category === "remera" && 'selected' %> value= "remeras">Remeras</option>
+                        <select value="" name="category" class="form-select" id="categoria"  aria-label="Floating label select example">
+                        
+                          <option <%= category === "remeras" && 'selected' %> value= "remeras">Remeras</option>
                           <option <%= category === "pantalones" && 'selected' %> value= "pantalones">Pantalones</option>
                           <option <%= category === "calzado" && 'selected' %> value= "calzado">Calzado</option>
                         </select>
                         
                       </div>
+                  </div>
+
+                  <div class="col-12 col-md-3">
+                    <label for="floatingInput">Stock:</label>
+                    <div class="form-floating">
+                      <input name="stock" type="number" class="form-control" id="stock" placeholder="stock" value="<%=stock %>" >                
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-3">
+                    <label for="floatingInput">Talle;</label>
+                    <div class="form-floating">
+                      <input name="talle"  class="form-control" id="talle"  value="<%=talle %>">                
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <label for="floatingTextarea2">Descripción:</label>
+                  <div class="form-floating">
+                      <textarea name="description" class="form-control" placeholder="Descripción" id="Descripción" style="height: 100px"><%= description %></textarea>
+                    
+                    </div>
                   </div>
                   
                   <div class="col-12 col-md-3 mt-4">
@@ -63,17 +85,11 @@
 
             </div>
 
-                  <div class="col-12">
-                    <label for="floatingTextarea2">Descripcion:</label>
-                  <div class="form-floating">
-                      <textarea name="description" class="form-control" placeholder="Descripcion" id="Descripcion" style="height: 100px"><%= description %></textarea>
-                    
-                    </div>
-                  </div>
+                  
 
                   <div class="col-12 mt-3 d-flex justify-content-end">
                     
-                    <button type="submit" class= "btn btn-lg btn-dark" >Guardar edición</button>
+                    <button type= "submit" class= "btn btn-lg btn-dark w-100" >Guardar edición</button>
                 
                 </form>
             </div>
@@ -90,5 +106,4 @@
 <%- include('../partials/footer') %>
 
 </body>
-</htm 
-
+</html>
