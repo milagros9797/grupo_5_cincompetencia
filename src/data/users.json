@@ -38,29 +38,5 @@
       "email": "  @gmail.com",
       "password": "Sergio_123",
       "category": "User"
-   },
-   {
-      "id": "5d7f0819-6c2f-4458-8dfd-f643b9ff7e7f",
-      "name": "marialo",
-      "surname": "lopez",
-      "email": "marialopez4@gmail.com",
-      "password": "$2a$10$hhFajOIQhnvFwPHZHqxflOL0eSa69rf6A3WI6zP9foHZsn6iN73Sy",
-      "role": "user"
-   },
-   {
-      "id": "d7fb5111-1596-4ace-9646-fa831321ad4d",
-      "name": "marialo",
-      "surname": "lopez",
-      "email": "marialopez5@gmail.com",
-      "password": "$2a$10$H1jbhTKaMQ/S9PskLSt0rOPnqs9WsKLpPZzu5MwVDRrV0f8fhBrM6",
-      "role": "user"
-   },
-   {
-      "id": "1ae3ce90-cddb-4d63-8e20-ffaad8d2684c",
-      "name": "mario",
-      "surname": "lopez",
-      "email": "mariolopez1@gmail.com",
-      "password": "$2a$10$/WRAzoXGmr6WCc4tId6PH.u5z/RHOBS9Zb5cG3P3CXYAGSQmdZ7w2",
-      "role": "user"
    }
 ]

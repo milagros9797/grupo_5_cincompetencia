@@ -18,7 +18,7 @@ module.exports = {
 
             escribirJSON(users,'users');
 
-            return res.redirect('/usuarios/ingreso')
+            return res.redirect('/users/ingreso')
 
         }else{ 
             return res.render('users/register',{
