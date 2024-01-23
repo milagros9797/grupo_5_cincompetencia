@@ -12,7 +12,6 @@ const productsRouter = require('./routes/products.routes')
 
 const checkLocalSession= require('./middlewares/checkSessionLocal');
 
-const session = require('express-session')
 
 var app = express();
 
@@ -28,9 +27,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser())
 
-
-/* soporte para métodos PUT,PATCH & DELETE */
-.use(methodOverride('_method'))
 
 /*recursos estaticos*/
 app.use(express.static(path.join(__dirname,'..', 'public')));

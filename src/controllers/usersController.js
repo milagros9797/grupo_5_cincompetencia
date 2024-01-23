@@ -51,6 +51,9 @@ module.exports = {
                 errors: errors.mapped()
             });
         }
+    },
+    profile : (req,res) => {
+        return res.render('users/profile')
     }
 
 }
