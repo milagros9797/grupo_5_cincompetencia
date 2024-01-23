@@ -11,7 +11,7 @@
       "price": 10
    },
    {
-      "id": 1,
+      "id": 2,
       "name": "Pantalon ancho",
       "category": "pantalones",
       "talle": "M",
@@ -22,7 +22,7 @@
       "price": 10
    },
    {
-      "id": 1,
+      "id": 3,
       "name": "Pantalon ancho",
       "category": "pantalones",
       "talle": "L",
@@ -33,7 +33,7 @@
       "price": 10
    },
    {
-      "id": 1,
+      "id": 4,
       "name": "Pantalon ancho",
       "category": "pantalones",
       "talle": "XL",
@@ -44,7 +44,7 @@
       "price": 10
    },
    {
-      "id": 2,
+      "id": 5,
       "name": "Remera",
       "category": "remeras",
       "talle": "S",
@@ -55,7 +55,7 @@
       "price": 5
    },
    {
-      "id": 2,
+      "id": 6,
       "name": "Remera",
       "category": "remeras",
       "talle": "M",
@@ -66,7 +66,7 @@
       "price": 5
    },
    {
-      "id": 2,
+      "id": 7,
       "name": "Remera",
       "category": "remeras",
       "talle": "L",
@@ -77,7 +77,7 @@
       "price": 5
    },
    {
-      "id": 2,
+      "id": 8,
       "name": "Remera",
       "category": "remeras",
       "talle": "XL",
@@ -88,7 +88,7 @@
       "price": 5
    },
    {
-      "id": 3,
+      "id": 9,
       "name": "Remera",
       "category": "remeras",
       "talle": "S",
@@ -99,7 +99,7 @@
       "price": 5
    },
    {
-      "id": 3,
+      "id": 10,
       "name": "Remera",
       "category": "remeras",
       "talle": "M",
@@ -110,7 +110,7 @@
       "price": 5
    },
    {
-      "id": 3,
+      "id": 11,
       "name": "Remera",
       "category": "remeras",
       "talle": "L",
@@ -121,7 +121,7 @@
       "price": 5
    },
    {
-      "id": 3,
+      "id": 12,
       "name": "Remera",
       "category": "remeras",
       "talle": "XL",
@@ -132,7 +132,7 @@
       "price": 5
    },
    {
-      "id": 4,
+      "id": 13,
       "name": "Remera",
       "category": "remeras",
       "talle": "S",
@@ -143,7 +143,7 @@
       "price": 5
    },
    {
-      "id": 4,
+      "id": 14,
       "name": "Remera",
       "category": "remeras",
       "talle": "M",
@@ -154,7 +154,7 @@
       "price": 5
    },
    {
-      "id": 4,
+      "id": 15,
       "name": "Remera",
       "category": "remeras",
       "talle": "L",
@@ -165,7 +165,7 @@
       "price": 5
    },
    {
-      "id": 4,
+      "id": 16,
       "name": "Remera",
       "category": "remeras",
       "talle": "XL",
@@ -176,7 +176,7 @@
       "price": 5
    },
    {
-      "id": 5,
+      "id": 17,
       "name": "Remera",
       "category": "remeras",
       "talle": "S",
@@ -187,7 +187,7 @@
       "price": 5
    },
    {
-      "id": 5,
+      "id": 18,
       "name": "Remera",
       "category": "remeras",
       "talle": "M",
@@ -198,7 +198,7 @@
       "price": 5
    },
    {
-      "id": 5,
+      "id": 19,
       "name": "Remera",
       "category": "remeras",
       "talle": "L",
@@ -209,7 +209,7 @@
       "price": 5
    },
    {
-      "id": 5,
+      "id": 20,
       "name": "Remera",
       "category": "remeras",
       "talle": "XL",
@@ -220,7 +220,7 @@
       "price": 5
    },
    {
-      "id": 6,
+      "id": 21,
       "name": "Short",
       "category": "Pantalon corto",
       "talle": "S",
@@ -231,7 +231,7 @@
       "price": 6
    },
    {
-      "id": 6,
+      "id": 22,
       "name": "Short",
       "category": "Pantalon corto",
       "talle": "M",
@@ -242,7 +242,7 @@
       "price": 6
    },
    {
-      "id": 6,
+      "id": 23,
       "name": "Short",
       "category": "Pantalon corto",
       "talle": "L",
@@ -253,7 +253,7 @@
       "price": 6
    },
    {
-      "id": 6,
+      "id": 24,
       "name": "Short",
       "category": "Pantalon corto",
       "talle": "XL",
@@ -264,7 +264,7 @@
       "price": 6
    },
    {
-      "id": 7,
+      "id": 25,
       "name": "Zapatillas",
       "category": "Calzado",
       "talle": "36",
@@ -275,7 +275,7 @@
       "price": 170
    },
    {
-      "id": 7,
+      "id": 26,
       "name": "Zapatillas",
       "category": "Calzado",
       "talle": "37",
@@ -286,7 +286,7 @@
       "price": 170
    },
    {
-      "id": 7,
+      "id": 27,
       "name": "Zapatillas",
       "category": "Calzado",
       "talle": "38",
@@ -297,7 +297,7 @@
       "price": 170
    },
    {
-      "id": 7,
+      "id": 28,
       "name": "Zapatillas",
       "category": "Calzado",
       "talle": "39",
@@ -308,7 +308,7 @@
       "price": 170
    },
    {
-      "id": 8,
+      "id": 29,
       "name": "Zapatillas",
       "category": "Calzado",
       "talle": "36",
@@ -319,7 +319,7 @@
       "price": 150
    },
    {
-      "id": 8,
+      "id": 30,
       "name": "Zapatillas",
       "category": "Calzado",
       "talle": "37",
@@ -330,7 +330,7 @@
       "price": 150
    },
    {
-      "id": 8,
+      "id": 31,
       "name": "Zapatillas",
       "category": "Calzado",
       "talle": "38",
@@ -341,7 +341,7 @@
       "price": 150
    },
    {
-      "id": 8,
+      "id": 32,
       "name": "Zapatillas",
       "category": "Calzado",
       "talle": "39",
@@ -350,29 +350,5 @@
       "color": "Azul",
       "mainImage": [],
       "price": 150
-   },
-   {
-      "id": "2bf43ac1-8767-40c1-8309-40e3150e8497",
-      "name": "pantalon verano",
-      "price": "25000",
-      "description": "excelente pantalon de verano",
-      "mainImage": null,
-      "category": "Pantalones"
-   },
-   {
-      "id": "dd9e3eab-3bfc-4e4a-a45a-ea5485438e47",
-      "name": "remera verano",
-      "price": "80000",
-      "description": "remera verde de ocasión",
-      "mainImage": null,
-      "category": "Remeras"
-   },
-   {
-      "id": "5e49b07a-5322-4542-b7f2-40695c37d006",
-      "name": "Zapatilla Nike",
-      "price": "134",
-      "description": "vvbvbbbhgtt",
-      "mainImage": null,
-      "category": "Calzado"
    }
 ]

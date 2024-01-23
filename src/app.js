@@ -10,6 +10,10 @@ var indexRouter = require('./routes/index.routes');
 var usersRouter = require('./routes/users.routes');
 const productsRouter = require('./routes/products.routes')
 
+const checkLocalSession= require('./middlewares/checkSessionLocal');
+
+const session = require('express-session')
+
 var app = express();
 
 // view engine setup
@@ -34,10 +38,13 @@ app.use(express.static(path.join(__dirname,'..', 'public')));
 /* soporte para métodos PUT, PATCH & DELETE*/ 
 app.use(methodOverride('_method'))
 
-/* configuración de session */
 app.use(session({
-  secret : 'Cincompetencia'
-})) 
+  secret: 'grupo_5',
+  resave: false, 
+  saveUninitialized: false 
+}))
+
+app.use(checkLocalSession)
 
 /*rutas*/
 app.use('/', indexRouter);
