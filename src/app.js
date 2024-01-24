@@ -3,7 +3,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const methodOverride = require('method-override')
+const methodOverride = require('method-override');
+const session = require('express-session');
 
 var indexRouter = require('./routes/index.routes');
 var usersRouter = require('./routes/users.routes');
@@ -11,7 +12,6 @@ const productsRouter = require('./routes/products.routes')
 
 const checkLocalSession= require('./middlewares/checkSessionLocal');
 
-const session = require('express-session')
 
 var app = express();
 
@@ -27,9 +27,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser())
 
-
-/* soporte para métodos PUT,PATCH & DELETE */
-.use(methodOverride('_method'))
 
 /*recursos estaticos*/
 app.use(express.static(path.join(__dirname,'..', 'public')));

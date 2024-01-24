@@ -26,7 +26,7 @@ module.exports = [
                 return false
             }
             return true
-        }),
+        }).withMessage("El email ya se encuentra registrado"),
     check("password")
         .notEmpty().withMessage('La contraseña es obligatoria')
         .isLength({
