@@ -6,7 +6,7 @@ const router = express.Router();
 
 /* /productos */
 router
-.get('/productDetail/:id?',productDetail )
+.get('/productDetail/:id?',productDetail ) // /products/
 .get('/productCart',productCart)
 .get('/agregar', add)
 .post('/crear',upload.single('mainImage'),create)

@@ -11,16 +11,18 @@
       <div class="formulario">
         <h1>REGISTRATE</h1>
         <h2>Datos personales</h2>
-    
+        
         <div class="campo">
-          <label for="nombre"></label>
-          <input type="text" name="name" id="nombre" required placeholder="*Nombre">
-        </div>
+          <label for="name"></label>
+          <input type="text" name="name" class="form-control <%= locals.errors && errors.name ? 'is-invalid' : null %>" id="name" placeholder="*Nombre" value="<%= locals.old && old.name ? old.name : null %>">
+        </div> 
+        <small style="color: red;"  class="text-danger "><%= locals.errors && errors.name ? errors.name.msg : null %></small>
     
         <div class="campo">
           <label for="apellido"></label>
-          <input type="text" name="surname" id="apellido" required placeholder="*Apellido">
+          <input type="text" name="surname" class="form-control <%= locals.errors && errors.surname ? 'is-invalid' : null %>" id="apellido" placeholder="*Apellido" value="<%= locals.old && old.surname ? old.surname : null %>">
         </div>
+        <small style="color: red;"  class="text-danger "><%= locals.errors && errors.surname ? errors.surname.msg : null %></small>
     
         <div class="campo_Dni">
           <label for="tipo_dni"></label>
@@ -32,34 +34,37 @@
           </select>
             
           <label for="numero_documento"></label>
-          <input  id="numero_documento" name="doc" required placeholder="*Numero de documento">
+          <input  id="numero_documento" name="doc"  placeholder="*Numero de documento">
     
         </div>
     
         <div class="campo">
           <label for="email"></label>
-          <input type="email" name="email" id="email" required placeholder="*Ingrese su Email">
+          <input type="text" name="email" class="form-control  <%= locals.errors && errors.email ? 'is-invalid' : null %>" id="email"  placeholder="*Ingrese su Email" value="<%= locals.old && old.email ? old.email : null %>">
         </div>
+        <small style="color: red;"  class="text-danger "><%= locals.errors && errors.email ? errors.email.msg : null %></small>
     
-        <div class="campo">
-          <label for="confirmar_email"></label>
-          <input type="email" name="email" id="confirmar_email" required placeholder="*Confirme su Email">
-        </div>
+        
     
         <div class="campo">
           <label for="contraseña"></label>
-          <input type="password" name="password" id="contraseña" required placeholder="*Ingrese su CONTRASEÑA">
+          <input type="password" name="password" class="form-control  <%= locals.errors && errors.password ? 'is-invalid' : null %>" id="contraseña"  placeholder="*Ingrese su CONTRASEÑA">
+          <small style="color: red;"  class="text-danger "><%= locals.errors && errors.password ? errors.password.msg : null %></small>
+        
         </div>
     
         <div class="campo">
           <label for="confirmar_contraseña"></label>
-          <input type="password" name="password2" id="confirmar_contraseña" required placeholder="*Confirmar su CONTRASEÑA">
+          <input type="password" name="password2"  class="form-control  <%= locals.errors && errors.password2 ? 'is-invalid' : null %>" id="confirmar_contraseña"  placeholder="*Confirmar su CONTRASEÑA">
+          <small style="color: red;"  class="text-danger "><%= locals.errors && errors.password2 ? errors.password2.msg : null %></small>
+
         </div>
     
         <div class="campo">
           <input type="checkbox" id="politicas" name="remember" >
           <label for="politicas">Acepto las políticas de privacidad y términos y condiciones.</label>
         </div>
+        <small style="color: red;"  class="text-danger "><%= locals.errors && errors.remember ? errors.remember.msg : null %></small>
         
     
         <div class="campo">
@@ -67,6 +72,7 @@
           <label for="promociones">Quiero recibir promociones y novedades de producto</label>
         </div>
     
+
         <div>
           <a href="login.html">
         <button class="botonCrearC" type="submit" id="crear_cuenta">Crear mi cuenta</button>

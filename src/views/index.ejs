@@ -3,282 +3,130 @@
 <!--include/head-->
 <%- include('./partials/head',{ title:'Home'})%>
 
-<body class="index">
-<!--include/header-->
-    <%- include('./partials/header') %>
+    <body class="index">
+        <!--include/header-->
+        <%- include('./partials/header') %>
 
-    <section class="banner"> <div><img src="/images/2.jpg" alt=""></div></section>
-
-
-    <main class="index__main">
-       <h2 class="h2__main">Recomendado para vos</h2>
-        <section class="index__main__section">
-            
-<article class="index__main__section__article">
- <img src="/images/9.png" alt="">
- <div class="comprar__a">
-    <h4>Remera Amarilla</h4>
-
-    <p class="p-main">$3400</p>
-    <div class="caja-comprar">
-    <a class="a-comprar" href="">Comprar</a>
-</div>
-</div>
-</article>
-<article class="index__main__section__article">
-    <img src="/images/11.png" alt="">
-    <div class="comprar__a">
-       <h4>Corto azul</h4>
-   
-       <p class="p-main">$2500</p>
-       <div class="caja-comprar">
-       <a class="a-comprar" href="">Comprar</a>
-   </div>
-   </div>
-   </article>
-   <article class="index__main__section__article">
-    <img src="/images/6.png" alt="">
-    <div class="comprar__a">
-       <h4>Remera Bordo</h4>
-   
-       <p class="p-main">$3400</p>
-       <div class="caja-comprar">
-       <a class="a-comprar" href="">Comprar</a>
-   </div>
-   </div>
-   </article>
-   <article class="index__main__section__article">
-    <img src="/images/7.png" alt="">
-    <div class="comprar__a">
-       <h4>Remera Negra</h4>
-   
-       <p class="p-main">$5200</p>
-       <div class="caja-comprar">
-       <a class="a-comprar" href="">Comprar</a>
-   </div>
-   </div>
-   </article>
-   <article class="index__main__section__article">
-    <img src="/images/10.png" alt="">
-    <div class="comprar__a">
-       <h4>Remera Azul (marino)</h4>
-   
-       <p class="p-main">$4100</p>
-       <div class="caja-comprar">
-       <a class="a-comprar" href="">Comprar</a>
-   </div>
-   </div>
-   </article>
-   <article class="index__main__section__article">
-    <img src="/images/8.png" alt="">
-    <div class="comprar__a">
-       <h4>Remera Celeste</h4>
-   
-       <p class="p-main">$3100</p>
-       <div class="caja-comprar">
-       <a class="a-comprar" href="">Comprar</a>
-   </div>
-   </div>
-   </article>
-
-   <article class="index__main__section__article">
-    <img src="/images/campera.1.png" alt="">
-    <div class="comprar__a">
-       <h4>Campera Gris (oscuro)</h4>
-   
-       <p class="p-main">$6500</p>
-       <div class="caja-comprar">
-       <a class="a-comprar" href="">Comprar</a>
-   </div>
-   </div>
-   </article>
+            <section class="banner">
+                <div><img src="/images/2.jpg" alt=""></div>
+            </section>
 
 
-  
-   <article class="index__main__section__article">
-    <img src="/images/camperon.2.png" alt="">
-    <div class="comprar__a">
-       <h4>Camperon Negro</h4>
-   
-       <p class="p-main">$8500</p>
-       <div class="caja-comprar">
-       <a class="a-comprar" href="">Comprar</a>
-   </div>
-   </div>
-   </article>
+            <main class="index__main">
+                <h2 class="h2__main">Recomendado para vos</h2>
+                <section class="index__main__section">
+                    <% recomendados.forEach(recomendado => { %>
+                        <%- include('./partials/tarjetaProduct', {...recomendado}) %>
+                    <% }) %>            
+                </section>
+                
+            </main>
 
+            <section class="index__main__section2">
+                <img class="img__zapatilla" src="/images/5.png" alt="">
 
+                <div class="carrusel">
+                    <div class="conteCarrousel">
+                        <div class="itemCarrousel" id="itemCarrousel-1">
+                            <div class="itemCarrouselTarjeta">
+                                <div class="articulo">
+                                    <img src="/images/7.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
+                                <div class="articulo">
+                                    <img src="/images/10.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
 
- </section>
- 
-</main>
-
-<section class="index__main__section2">
-<img class="img__zapatilla" src="/images/5.png" alt="">
-
-
-
-
-
-
-
-
-
-
-
-  
-
-    <div class="carrusel">
-        <div class="conteCarrousel">
-            <div class="itemCarrousel" id="itemCarrousel-1">
-                <div class="itemCarrouselTarjeta">
-                    <div class="articulo">
-                        <img src="/images/7.png" alt="">
-                        <a class="carrusel__a" href="">Comprar</a>
-                    </div>
-                    <div  class="articulo">
-                        <img src="/images/10.png" alt="">
-                        <a class="carrusel__a" href="">Comprar</a>
-                    </div>
-
-                    <div  class="articulo articulo2">
-                        <img src="/images/9.png" alt="">
-                        <a class="carrusel__a" href="">Comprar</a>
+                                <div class="articulo articulo2">
+                                    <img src="/images/9.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
+                            </div>
+                            <div class="itemCarrouselArrows">
+                                <a href="#itemCarrousel-3">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#itemCarrousel-2">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="itemCarrousel" id="itemCarrousel-2">
+                            <div class="itemCarrouselTarjeta">
+                                <div class="articulo">
+                                    <img src="/images/13.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
+                                <div class="articulo">
+                                    <img src="/images/12.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
+                                <div class="articulo articulo2">
+                                    <img src="/images/8.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
+                            </div>
+                            <div class="itemCarrouselArrows">
+                                <a href="#itemCarrousel-1">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#itemCarrousel-3">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="itemCarrousel" id="itemCarrousel-3">
+                            <div class="itemCarrouselTarjeta">
+                                <div class="articulo">
+                                    <img src="/images/3.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
+                                <div class="articulo">
+                                    <img src="/images/1.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
+                                <div class="articulo articulo2 ">
+                                    <img src="/images/6.png" alt="">
+                                    <a class="carrusel__a" href="">Comprar</a>
+                                </div>
+                            </div>
+                            <div class="itemCarrouselArrows">
+                                <a href="#itemCarrousel-2">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#itemCarrousel-1">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="itemCarrouselArrows">
-                    <a href="#itemCarrousel-3">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a href="#itemCarrousel-2">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
+            </section>
+
+            <div class="contenedor">
+                <div class="img1"><img src="/images/17.png" alt=""></div>
+
+                <div class="none">
+                    <h3>DALE PODER A TU ENTRENAMIENTO</h3>
+                    <p>indumentarias hechas especialmente con materiales reciclados</p>
+                    <p class="enlace__conoce-mas"><a href="">Conoce mas</a></p>
                 </div>
+
+                <div class="img1"><img src="/images/18.png" alt=""></div>
+
             </div>
-            <div class="itemCarrousel" id="itemCarrousel-2">
-                <div class="itemCarrouselTarjeta">
-                    <div class="articulo">
-                    <img src="/images/13.png" alt="">
-                    <a class="carrusel__a" href="">Comprar</a>
-                </div>
-                <div  class="articulo">
-                    <img src="/images/12.png" alt="">
-                    <a class="carrusel__a" href="">Comprar</a>
-                </div>
-                <div  class="articulo articulo2">
-                    <img src="/images/8.png" alt="">
-                    <a class="carrusel__a" href="">Comprar</a>
-                </div>
-                </div>
-                <div class="itemCarrouselArrows">
-                    <a href="#itemCarrousel-1">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a href="#itemCarrousel-3">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </div>
+
+
+            <div class="h3__p">
+                <h4>DALE PODER A TU ENTRENAMIENTO</h4>
+                <p>indumentarias hechas especialmente con materiales reciclados</p>
+                <p class="enlace__conoce-mas"><a href="">Conoce mas</a></p>
             </div>
-            <div class="itemCarrousel" id="itemCarrousel-3">
-                <div class="itemCarrouselTarjeta">
-                    <div class="articulo">
-                    <img src="/images/3.png" alt="">
-                    <a class="carrusel__a" href="">Comprar</a>
-                </div>
-                <div  class="articulo">
-                    <img src="/images/1.png" alt="">
-                    <a class="carrusel__a" href="">Comprar</a>
-                </div>
-                <div  class="articulo articulo2 ">
-                    <img src="/images/6.png" alt="">
-                    <a class="carrusel__a" href="">Comprar</a>
-                </div>
-            </div>
-                <div class="itemCarrouselArrows">
-                    <a href="#itemCarrousel-2">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a href="#itemCarrousel-1">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
+            <%- include('./partials/footer') %>
 
+    </body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="contenedor">
-    <div class="img1"><img  src="/images/17.png" alt=""></div>
-
-<div class="none"> <h3>DALE PODER A TU ENTRENAMIENTO</h3>
-<p>indumentarias hechas especialmente con materiales reciclados</p>
-<p class="enlace__conoce-mas"><a href="">Conoce mas</a></p></div>
- 
-    <div class="img1"><img src="/images/18.png" alt=""></div>
-       
-</div>
-
-
-<div class="h3__p"> 
-    <h4>DALE PODER A TU ENTRENAMIENTO</h4>
-    <p>indumentarias hechas especialmente con materiales reciclados</p>
-    <p class="enlace__conoce-mas"><a href="">Conoce mas</a></p>
-</div>
-     
-
-
-
-    <%- include('./partials/footer') %>
-  
-</body>
 </html>

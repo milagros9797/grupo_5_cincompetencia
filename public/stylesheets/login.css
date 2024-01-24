@@ -26,7 +26,7 @@ body {
   }  
 
   .form-control {
-    width: 95%;
+    width: 100%;
     padding: 10px;
     border: 1px solid #dddddd;
     border-radius: 0;

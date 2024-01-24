@@ -28,6 +28,7 @@ input:focus {
     
     display: inline-flex;
     margin-bottom: 10px;/*revisar*/
+    margin-top: 5px;
     width: 100%;
               
 }
@@ -35,6 +36,7 @@ input:focus {
 #tipo_dni{ 
 
 margin-right: 10px;
+margin-bottom: 0px;
 width: 30%;
    
 }
