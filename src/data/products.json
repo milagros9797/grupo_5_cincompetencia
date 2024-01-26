@@ -350,5 +350,21 @@
       "color": "Azul",
       "mainImage": [],
       "price": 150
+   },
+   {
+      "id": "2bf43ac1-8767-40c1-8309-40e3150e8497",
+      "name": "pantalon verano",
+      "price": "25000",
+      "description": "excelente pantalon de verano",
+      "mainImage": null,
+      "category": "Pantalones"
+   },
+   {
+      "id": "dd9e3eab-3bfc-4e4a-a45a-ea5485438e47",
+      "name": "remera verano",
+      "price": "80000",
+      "description": "remera verde de ocasión",
+      "mainImage": null,
+      "category": "Remeras"
    }
 ]
