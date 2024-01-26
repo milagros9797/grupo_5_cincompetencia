@@ -3,25 +3,25 @@
       "id": 1,
       "firstName": "Milagros",
       "lastName": "Herrera",
-      "email": " @gmail.com",
-      "password": "Milagros_123",
-      "category": "User"
+      "email": " milagros@gmail.com",
+      "password": "1234",
+      "role": "User"
    },
    {
       "id": 2,
       "firstName": "Ezequiel",
       "lastName": "Mazzucco",
-      "email": "     @gmail.com",
-      "password": "Ezequiel_123",
-      "category": "Admin"
+      "email": "ezequiel@gmail.com",
+      "password": "1234",
+      "role": "User"
    },
    {
       "id": 3,
       "firstName": "Marcelo",
       "lastName": "Santander",
-      "email": "   @gmail.com",
-      "password": "Marcelo_123",
-      "category": "Admin"
+      "email": "marcelo@gmail.com",
+      "password": "1234",
+      "role": "Admin"
    },
    {
       "id": 4,
@@ -29,7 +29,7 @@
       "lastName": "Gonzlez",
       "email": "   @gmail.com",
       "password": "Leonel_123",
-      "category": "Admin"
+      "role": "Admin"
    },
    {
       "id": 5,
@@ -37,6 +37,6 @@
       "lastName": "Vecchi",
       "email": "sergio@gmail.com",
       "password": "Sergio_123",
-      "category": "User"
+      "role": "User"
    }
 ]
