@@ -4,6 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;  /* Añadido */
+    align-items: center;
 }
 .search__bar {
     padding-bottom: 15px;

@@ -8,7 +8,8 @@ module.exports = [
             min: 3
         }).withMessage('Mínimo tres caracteres').bail()
         .isAlpha('es-ES',{ignore: ' '}).withMessage('Solo caracteres alfabéticos'),
-        check("surname")
+        
+    check("surname")
         .notEmpty().withMessage('El apellido es obligatorio').bail()
         .isLength({
             min: 2

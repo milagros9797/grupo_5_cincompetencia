@@ -17,6 +17,6 @@ module.exports = [
             }
         
             return true;
-        }).withMessage('Credenciales invalidas.')    
+        }).withMessage('Su contraseña o Usuario son Incorrectos')    
 ];
 

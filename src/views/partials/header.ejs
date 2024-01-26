@@ -15,15 +15,44 @@
 
       <div class="heart">
         <a href="/products/productDetail"><i class="fa-solid fa-heart"></i></a>
-      </div>
-
-      <div class="user">
-        <a href="/users/ingreso"><i class="fa-solid fa-user"></i></a>
+        <small>Favoritos</small>
       </div>
 
       <div class="cart">
         <a href="/products/productCart"><i class="fa-solid fa-cart-shopping"></i></a>
+        <small>Carrito</small>
       </div>
+
+      <% if (locals.userLogin) { %>
+
+        <% if (userLogin.role === "Admin") { %>
+
+          <div class="user">
+            <a href="/dashboard"><i class="fa-solid fa-tachometer-alt"></i>
+            </a>
+            <small> Dashboard</small>
+          </div>
+         
+        <% } %>
+
+        <div class="user">
+          <a href="/users/perfil"><i class="fa-solid fa-user"></i></a>
+          <small> Mi Perfil</small>
+        </div>
+        <div class="user">
+          <a href="/users/salir"><i class="fa-solid fa-sign-out-alt"></i></a>
+          <small> Salir</small>
+        </div>
+       
+      <% }else{%>
+        <div class="user">
+          <a href="/users/ingreso"><i class="fa-solid fa-users"></i></a>
+          <small>Ingresa</small>
+        </div>
+
+      <% } %>
+
+    
 
      </div>
 
@@ -75,8 +104,6 @@
               <li><a class="mujer" href="">Mujer</a></li>
               <li><a class="hombre" href="">Hombre</a></li>
               <li><a class="zapatillas" href="">Zapatillas</a></li>
-              <li><a  href="/dashboard">Dashboard</a></li>
-
 
           </ul>
       </nav>

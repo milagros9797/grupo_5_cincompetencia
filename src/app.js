@@ -12,8 +12,6 @@ const productsRouter = require('./routes/products.routes')
 
 const checkLocalSession= require('./middlewares/checkSessionLocal');
 
-const session = require('express-session')
-
 var app = express();
 
 // view engine setup
