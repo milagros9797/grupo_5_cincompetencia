@@ -6,7 +6,7 @@
 
   <%- include('../partials/headerDashboard') %>
 
-  <!-- -->
+  
 
 
   <main class="container">
@@ -15,35 +15,39 @@
         <div class="card">
             <div class="card-header d-flex justify-content-between">
 
-                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
                       <li class="breadcrumb-item text-primary"><a href="/dashboard">Home</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Nueva Indumentaria</li>
+                      <li class="breadcrumb-item active" aria-current="page">Nueva Indumentaria:</li>
                     </ol>
                   </nav>
 
-                <!-- <h4 class="cart-title">Agregar Indumentaria </h4> -->
+                
                
             </div>
             <div class="card-body">
-                <form action="/products/crear" method="POST" class="row" enctype="multipart/form-data">
-                    <h3>Nueva Indumentaria</h3>
-                    <div class="col-12 col-md-6 mb-3">
-                <div class="form-floating ">
-                    <input name="name" type="text" class="form-control" id="name" placeholder="categoria">
-                    <label for="floatingInput">Nombre</label>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6 mb-3">
+              <form action="" class="row">
+               
+                    <h3>Agregar Indumentaria:</h3>
+
+                    <div class="col-12 col-md-6">
+                      <label for="floatingInput">Nombre del producto:</label> 
+                    <div class="form-floating ">
+                    <input name="name" type="text" class="form-control" id="name" placeholder="nombre">
+                 
+                    </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                  <label for="floatingPassword">Precio del producto:</label>
                   <div class="form-floating">
                     <input name="price" type="number" class="form-control" id="precio" placeholder="precio">
-                    <label for="floatingPassword">Precio</label>
+                  
                   </div>
-                </div>
-                <div class="col-12 mb-3">
-                  <div class="col-12 col-md-6">
+                    </div>
+             
+                    <div class="col-12 col-md-6">
                     <label for="category">Categoria:</label>
-                      <div class="form-floating">
+                        <div class="form-floating">
                           <select value="" name="category" class="form-select" id="categoria"  aria-label="Floating label select example">
                           
                             <option value= "remeras">Remeras</option>
@@ -62,7 +66,7 @@
                     </div>
   
                     <div class="col-12 col-md-3">
-                      <label for="floatingInput">Talle;</label>
+                      <label for="floatingInput">Talle:</label>
                       <div class="form-floating">
                         <input name="talle"  class="form-control" id="talle" >                
                       </div>
@@ -70,29 +74,29 @@
   
                     <div class="col-12 col-md-6">
                       <label for="floatingTextarea2">Descripción:</label>
-                    <div class="form-floating">
+                      <div class="form-floating">
                         <textarea name="description" class="form-control" placeholder="Descripción" id="Descripción" style="height: 100px"></textarea>
                       
                       </div>
                     </div>
                     
-                  <div class="col-12 col-md-3 mb-3">
+                    <div class="col-12 col-md-3 mt-4">
                       <input name="mainImage" type="file" class="form-control" id="mainImage" hidden>
                       <label class= "btn btn-lg btn-outline-dark  w-100" for="mainImage">Imagen principal</label>
             
-                  </div>
-                  <div class="col-12 col-md-3 mb-3">
+                    </div>
+                    <div class="col-12 col-md-3 mt-4">
                     <input name="images" type="file" class="form-control" id="images" hidden multiple>
                     <label class= "btn btn-lg btn-outline-dark w-100" for="images">Imagenes</label>
           
-                </div>
-                <div class="col-12 d-flex justify-content-end">
+                    </div>
+                    <div class="col-12 mt-3 d-flex justify-content-end">
                     
-                    <button type="submit" class= "btn btn-lg btn-dark w-100" >Guardar Cambios</button>
+                    <button type="submit" class= "btn btn-lg btn-dark w-100" >Guardar cambios</button>
           
-                </div>
+                    </div>
                 
-                </form>
+              </form>
             </div>
 
         </div>
@@ -102,6 +106,6 @@
 
     </section>
 
-</main>
-  </body>
-  </html>
+  </main>
+</body>
+</html>
