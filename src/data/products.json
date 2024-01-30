@@ -357,7 +357,10 @@
       "price": "25000",
       "description": "excelente pantalon de verano",
       "mainImage": null,
-      "category": "Pantalones"
+      "category": "Pantalones",
+      "stock": 9,
+      "color": "Azul",
+      "talle": "M"
    },
    {
       "id": "dd9e3eab-3bfc-4e4a-a45a-ea5485438e47",
@@ -365,6 +368,60 @@
       "price": "80000",
       "description": "remera verde de ocasión",
       "mainImage": null,
-      "category": "Remeras"
+      "category": "Remeras",
+      "stock": 9,
+      "color": "Azul",
+      "talle": "M"
+   },
+   {
+      "id": "1d6fe64b-d9a6-405b-99e6-8521b38b4356",
+      "name": "Nuevo producto",
+      "price": "1000",
+      "description": "este es un producto de prueba",
+      "mainImage": null,
+      "category": "Pantalones",
+      "talle": "U",
+      "color": "indefinido",
+      "stock": 100
+   },
+   {
+      "id": "7969071c-876f-4ce2-b259-13b265471bff",
+      "name": "otro producto",
+      "price": "1000",
+      "description": "otro producto",
+      "mainImage": null,
+      "category": "remeras",
+      "color": "M",
+      "stock": "200"
+   },
+   {
+      "id": "eb983acc-f4b6-4145-893f-c8191fbbdb78",
+      "name": "otro producto 2",
+      "price": "1000",
+      "description": "otro producto",
+      "mainImage": null,
+      "category": "remeras",
+      "color": "MS",
+      "stock": "200"
+   },
+   {
+      "id": "a7543b9d-27f9-4ce8-8725-3f5dc393bb64",
+      "name": "otro producto 2",
+      "price": "1000",
+      "description": "otro producto",
+      "mainImage": null,
+      "category": "remeras",
+      "color": "MS",
+      "stock": "200"
+   },
+   {
+      "id": "a6230423-c58b-415f-b892-d6b29f0d537b",
+      "name": "otro producto 3",
+      "price": "1000",
+      "description": "otro producto",
+      "mainImage": null,
+      "category": "calzado",
+      "talle": "XL",
+      "stock": "2000"
    }
 ]
