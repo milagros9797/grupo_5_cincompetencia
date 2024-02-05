@@ -7,7 +7,7 @@ function User(name, surname, email, password) {
     this.surname = surname.trim();
     this.email = email.trim();
     this.password = bcryptjs.hashSync(password.trim(),10);
-    this.role = "user"
+    this.role = "User"
 
 }
 
