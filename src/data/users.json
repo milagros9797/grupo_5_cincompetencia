@@ -38,5 +38,13 @@
       "email": "sergio@gmail.com",
       "password": "Sergio_123",
       "role": "User"
+   },
+   {
+      "id": "80454267-b6bf-4d33-9618-50eeeb46b83e",
+      "name": "lili",
+      "surname": "lopez",
+      "email": "lililopez@gmail.com",
+      "password": "$2a$10$BgATrtAkzLC8AulaAwsfFOGGUGoVwvTsHYORaD4XbQYAlloev.rf6",
+      "role": "user"
    }
 ]
