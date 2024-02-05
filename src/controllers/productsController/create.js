@@ -8,11 +8,11 @@ module.exports = (req,res) => {
         const errors = validationResult(req);
         if(errors.isEmpty()){ 
 
-        const {name, category, description, price} = req.body;
+        const {name, category, description, price, color, stock, talle} = req.body;
 
         const mainImage = req.file;
        
-        const newProduct = new Product(name, category, description, price, mainImage)
+        const newProduct = new Product(name, category, description, price, color, stock, talle, mainImage)
         const products = leerJSON('products');
     
         products.push(newProduct);
