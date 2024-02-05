@@ -328,6 +328,7 @@
          background-color: #4682a9;
          justify-content: space-around;
          padding: 20px;
+         margin-bottom: 40px;
      } 
 
     .header__section li a {

@@ -38,5 +38,13 @@
       "email": "sergio@gmail.com",
       "password": "Sergio_123",
       "role": "User"
+   },
+   {
+      "id": "7c9ffee4-cf26-4a78-961c-28f9157bf866",
+      "name": "marce",
+      "lastname": "Santander",
+      "email": "marcelo1@gmail.com",
+      "password": "$2a$10$kkyvrOlYpIxKPLa.dwMxeeKQ0v8XWJhDnc5EO/zkazcVOTrR1.tYK",
+      "role": "User"
    }
 ]
