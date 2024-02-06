@@ -46,29 +46,5 @@
       "email": "marcelo1@gmail.com",
       "password": "$2a$10$kkyvrOlYpIxKPLa.dwMxeeKQ0v8XWJhDnc5EO/zkazcVOTrR1.tYK",
       "role": "User"
-   },
-   {
-      "id": "297dd1f9-ea67-4ce9-b020-e5b9d7677011",
-      "name": "MARCELO",
-      "lastname": "SANTANDER",
-      "email": "marcelo10@gmail.com",
-      "password": "$2a$10$amefVRKHt/JiwiBE4VI8UOm5VxxbqeghIQgpaZazcsSxiLKpYtv0S",
-      "role": "User"
-   },
-   {
-      "id": "97d6ec28-3121-42ae-b64d-46ce645eb902",
-      "name": "MARCELO ALEJANDRO",
-      "lastname": "SANTANDER",
-      "email": "marcelo11@gmail.com",
-      "password": "$2a$10$uyiK0QUSbYigWVzw7h3rnucMltb9CzHgf.sWF5nR3L39SJ8zpS.RK",
-      "role": "User"
-   },
-   {
-      "id": "0b62a56e-9a69-4699-9a1f-dd4840ca2cfc",
-      "name": "MARCELO ALEJ",
-      "lastname": "SANTANDER",
-      "email": "marcelo19@gmail.com",
-      "password": "$2a$10$VqG9JiFQXIW0O.qbegmyle7zgtbdqMLzeldHRf6JpVXyb8BCAJGjq",
-      "role": "User"
    }
 ]
