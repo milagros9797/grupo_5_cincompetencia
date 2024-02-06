@@ -20,7 +20,12 @@ check("surname")
 
 check("email")
     .notEmpty().withMessage('El email es obligatorio').bail()
+    .isAlpha('es-ES',{ignore: ' '}).withMessage('Solo caracteres alfabéticos'),
+
     
+check("password")
+    .notEmpty().withMessage('La contraseña es obligatoria').bail()
+    .isAlpha('es-ES',{ignore: ' '}).withMessage('Solo caracteres alfabéticos'),
 ]
 
   
