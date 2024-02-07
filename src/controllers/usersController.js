@@ -62,8 +62,25 @@ module.exports = {
     profile: (req,res)=> {
         return res.render('users/perfil')
         
-    }
+    },
+    update: (req,res) => {
 
+        const {name,surname,email} = req.body;
+        const {id} = req.params
+
+        const users = leerJSON('users');
+
+        const usersUpdated = users.map(user => {
+            if(user.id == id){
+                user.name = name.trim();
+                user.surname = surname.trim();
+                
+            }
+            return user
+        })
+        escribirJSON(usersUpdated, 'users')
+        return res.redirect('/perfil')
+    }
 }
 
 
